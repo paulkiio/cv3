@@ -11,7 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Menu pageWrapId= { "page-wrap" }>
+      <div id="outer-container">
+        <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } right>
           <a id="home" className="menu-item" href="/">Home</a>
           <a id="about" className="menu-item" href="/about">About</a>
           <a id="contact" className="menu-item" href="/contact">Contact</a>
@@ -20,6 +21,7 @@ class App extends Component {
         <main id="page-wrap">
           Main area
         </main>
+      </div>
       </div>
     );
   }
