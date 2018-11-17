@@ -1,21 +1,16 @@
-#outer-container
-  height: 100%
-
-#main-image
-  background-image: url('https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=landscape-nature-sky-236047.jpg&fm=jpg')
-  background-position: center center
-  background-size: cover
+#page-wrap
+  div:nth(2)
+    order: 1
 
 #main-content
   text-align: center
-  width: 50%
   height: 800px
   background-color: lightblue
+  padding: 0px
 
-@media (min-width: 576px)
-  aside
-    height: 100vh
-    width: 50%
-    position: fixed
-    right: 0
-    top: 0
+#main-image
+  padding: 0px
+  // background-image: url('https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=landscape-nature-sky-236047.jpg&fm=jpg')
+  // background-position: center center
+  // background-size: cover
+  // padding-bottom: 150%
