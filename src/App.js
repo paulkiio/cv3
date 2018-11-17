@@ -10,8 +10,10 @@ class App extends Component {
         <div id="outer-container">
           <Nav />
           <div id="page-wrap">
-            main content area
-            {/* <aside id="main-image" /> */}
+            <div id="main-content">
+              main content area
+            </div>
+            <aside id="main-image" />
           </div>
         </div>
       </div>
