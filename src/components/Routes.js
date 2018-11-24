@@ -1,9 +1,11 @@
+import Home from './MainContent/Home/Home';
 import Resume from './MainContent/Resume/Resume';
-import Work from './MainContent/Work/Work'
+import Work from './MainContent/Work/Work';
 
 const routes = [
   {
-    path: '/'
+    path: '/home',
+    component: Home
   },
   {
     path: '/resume',

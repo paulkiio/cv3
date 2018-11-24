@@ -13,7 +13,7 @@ export default class Nav extends Component {
 			<Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right>
 				<ul>
 					<li className="menu-item">
-						<Link to="/">Home</Link>
+						<Link to="/home">Home</Link>
 					</li>
 					<li className="menu-item">
 						<Link to="/resume">Resume</Link>
