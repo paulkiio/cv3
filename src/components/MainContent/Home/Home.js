@@ -12,7 +12,7 @@ export default class Home extends Component {
 					<span>a JavaScript Fan.</span>
 					<span>a Soccer Player.</span>
 					<span>a DJ.</span>
-					<span>Audi Enthusiast.</span>
+					<span>an Audi Enthusiast.</span>
 					<span>a World Traveller.</span>
 					<span>a Coffee Lover.</span>
 				</span>
