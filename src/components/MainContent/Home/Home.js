@@ -2,21 +2,41 @@ import React, { Component } from 'react';
 import './Home.sass'
 
 export default class Home extends Component {
-	state = { }
-	render() {
-		return <h1>
-        Hello. I am
-				<span>
-					<span>a Web Developer.</span>
-					<span>a Freelancer.</span>
-					<span>a JavaScript Fan.</span>
-					<span>a Soccer Player.</span>
-					<span>a DJ.</span>
-					<span>an Audi Enthusiast.</span>
-					<span>a World Traveller.</span>
-					<span>a Coffee Lover.</span>
+	constructor(props) {
+		super(props);
+		// this.textRotater = this.textRotater.bind(this);
+	}
+
+	textRotater = () => {
+		let content = [
+			' a Web Developer.',
+			' a Freelancer.',
+			' a JavaScript Fan.',
+			' a Soccer Player.',
+			' a DJ.',
+			' an Audi Enthusiast.',
+			' a World Traveller.',
+			' a Coffee Lover.'
+			],
+			rotaterSpan = document.getElementById("rotater");
+
+		if (rotaterSpan !== null) {
+			content.forEach((ea, i) => {
+				setTimeout(() => {
+					rotaterSpan.innerHTML = ea;
+				}, 2000);
+			});
+		}
+	}
+
+	render () {
+		return (
+			<h1>
+				Hello. I am
+				<span id="rotater" onLoad={this.textRotater()}>
 				</span>
-         I currently live in Indianapolis IN. I am passionated about leveraging technology to solve complex problems.
-      </h1>;
+				I currently live in Indianapolis IN. I am passionated about leveraging technotextRotatery to solve complex problems.
+      </h1>
+		);
 	}
 }
