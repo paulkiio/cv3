@@ -1,4 +1,4 @@
-import About from './MainContent/About/About';
+import Bio from './MainContent/Bio/Bio';
 import Resume from './MainContent/Resume/Resume';
 import Work from './MainContent/Work/Work'
 
@@ -7,8 +7,8 @@ const routes = [
     path: '/'
   },
   {
-    path: '/about',
-    component: About
+    path: '/bio',
+    component: Bio
   },
   {
     path: '/resume',
