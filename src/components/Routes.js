@@ -1,4 +1,4 @@
-import Home from './MainContent/Home/Home';
+import Bio from './MainContent/Bio/Bio';
 import Resume from './MainContent/Resume/Resume';
 import Work from './MainContent/Work/Work';
 
@@ -6,6 +6,10 @@ const routes = [
   {
     path: '/home',
     component: Home
+  },
+  {
+    path: '/bio',
+    component: Bio
   },
   {
     path: '/resume',
