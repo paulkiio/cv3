@@ -14,8 +14,8 @@ class App extends Component {
         <div id="outer-container">
           <Nav />
           <Row id="page-wrap">
-            <MainImage />
             <MainContent />
+            <MainImage />
           </Row>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Nav.sass';
-import { stack as Menu } from 'react-burger-menu';
+import { push as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom'
 
 export default class Nav extends Component {
@@ -13,7 +13,7 @@ export default class Nav extends Component {
 			<Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right>
 				<ul>
 					<li className="menu-item">
-						<Link to="/bio">Bio</Link>
+						<Link to="/">Home</Link>
 					</li>
 					<li className="menu-item">
 						<Link to="/resume">Resume</Link>
