@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Bio.sass';
 import { Col, Row } from "reactstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop, faUserMd } from '@fortawesome/free-solid-svg-icons';
+import { FaGlobe } from "react-icons/fa";
+import { FaPlusSquare } from "react-icons/fa";
 
 export default class Bio extends Component {
 	render() {
@@ -15,11 +15,11 @@ export default class Bio extends Component {
 		}
 
 		return (
-			<Col className="mt-5" sm="12" md="6" md="offset-md-3">
+			<Col className="mt-5" lg="10" md="10" sm="10" xs={{ size: 10, offset: 1 }}>
 				<h1>Hi, I'm Paul Wathome</h1>
-				<p class="lead mb-3">Developer &amp; Tech Geek</p>
+				<p className="lead mb-3">Developer &amp; Tech Geek</p>
 					<p>
-						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code some of my hobbies include playing soccer, immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id="currentDay">{getCurrentDay()}</span> 😉
+						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer, immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id="currentDay">{getCurrentDay()}</span> 😉
 					</p>
 
 					<p>
@@ -30,20 +30,20 @@ export default class Bio extends Component {
 
 				<h2 className="mb-4 mt-4">Services</h2>
 				<Row>
-					<Col lg="6" md="6">
+					<Col lg="6" md="6" xs="6">
 						<div className="media custom-media  d-block">
-							<div className="mr-3"><FontAwesomeIcon icon={ faDesktop } size="6x" color="#008080"/></div>
+							<span><FaGlobe size="5em" color="#008080"/></span>
 							<div className="media-body">
-								<h3 className="mt-0"><a href="#">Websites</a></h3>
+								<h4 className="mt-3"><a href="#">Websites</a></h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed obcaecati totam.</p>
 							</div>
 						</div>
 					</Col>
-					<Col lg="6" md="6">
+					<Col lg="6" md="6" xs="6">
 						<div className="media custom-media  d-block">
-							<div className="mr-3"><FontAwesomeIcon icon={ faUserMd } size="6x" color="#008080"/></div>
+							<span><FaPlusSquare size="5em" color="#008080"/></span>
 							<div className="media-body">
-								<h3 className="mt-0"><a href="#">Electronics Repair</a></h3>
+								<h4 className="mt-3"><a href="#">Electronics Repair</a></h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed obcaecati, totam.</p>
 							</div>
 						</div>
