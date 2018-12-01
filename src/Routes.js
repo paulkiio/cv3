@@ -4,7 +4,7 @@ import Work from './components/MainContent/Work/Work'
 
 const routes = [
   {
-    path: '/',
+    path: '/bio',
     component: Bio
   },
   {

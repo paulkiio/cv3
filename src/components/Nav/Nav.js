@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Nav.sass';
-import { push as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom'
 
 export default class Nav extends Component {
@@ -14,6 +14,9 @@ export default class Nav extends Component {
 				<ul>
 					<li className="menu-item">
 						<Link to="/">Home</Link>
+					</li>
+					<li className="menu-item">
+						<Link to="/bio">Bio</Link>
 					</li>
 					<li className="menu-item">
 						<Link to="/resume">Resume</Link>
