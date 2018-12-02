@@ -10,7 +10,7 @@ export default class MainContent extends Component {
 		return (
 			<Col id="main-content" lg="6" md="6" sm="12" xs="12">
 				{routes.map(route => (
-					<Route
+					<Route exact
 						key={route.path}
 						path={route.path}
 						component={route.component}
