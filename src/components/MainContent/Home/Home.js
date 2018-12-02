@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Bio.sass';
+import './Home.sass';
 import { Col, Row } from "reactstrap";
 import { MdWeb } from "react-icons/md";
 import { MdDevicesOther } from "react-icons/md";
 
-export default class Bio extends Component {
+export default class Home extends Component {
 	render() {
 
 		function getCurrentDay () {
@@ -19,7 +19,7 @@ export default class Bio extends Component {
 				<h1>Hi, I'm Paul Wathome</h1>
 				<p className="lead mb-3">Developer &amp; Tech Geek</p>
 					<p>
-						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer, immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id="currentDay">{getCurrentDay()}</span> 😉
+						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer,immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id="currentDay">{getCurrentDay()}</span> 😉
 					</p>
 
 					<p>
@@ -51,7 +51,7 @@ export default class Bio extends Component {
 									<a href="http://www.kiiolabs.info/" rel="noopener noreferrer" target="_blank">Electronics Repair</a>
 								</h4>
 								<p>
-									I've been passionate about consumer electronics since 2007. I make it a point to incorporate education during the diagnosis/repair process so my valued customers are always up to date on the latest tips and tricks.
+									I make it a point to incorporate education during the diagnosis/repair process so my valued customers are always up to date on the latest tips and tricks.
 								</p>
 							</div>
 						</div>

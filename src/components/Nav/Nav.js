@@ -16,9 +16,6 @@ export default class Nav extends Component {
 						<Link to="/">Home</Link>
 					</li>
 					<li className="menu-item">
-						<Link to="/bio">Bio</Link>
-					</li>
-					<li className="menu-item">
 						<Link to="/resume">Resume</Link>
 					</li>
 					<li className="menu-item">
