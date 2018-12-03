@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row } from "reactstrap";
+import { Col } from "reactstrap";
 import './Work.sass'
 
 export default class Work extends Component {
