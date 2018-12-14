@@ -10,15 +10,15 @@ export default class Work extends Component {
   state = {}
   render () {
     return (
-      <Col className="mt-5" lg="10" md="10" sm="10" xs={{ size: 10, offset: 1 }}>
-        <a href="/" className="home-button"><span><MdHome size='2em' color='#008080'/></span></a>
-        <h1 className="mb-5">Portfolio</h1>
-        <div className="mb-5">
-          <ul className="portfolio-list">
+      <Col className='mt-5' lg='10' md='10' sm='10' xs={{ size: 10, offset: 1 }}>
+        <a href='/' className='home-button'><span><MdHome size='2em' color='#008080'/></span></a>
+        <h1 className='mb-5'>Portfolio</h1>
+        <div className='mb-5'>
+          <ul className='portfolio-list'>
             <li>
-              <a href="https://www.rennsportperformance.com/" rel="noopener noreferrer" target="_blank">
-                <img src={ rsp } alt="" />
-                <div className="text">
+              <a href='https://www.rennsportperformance.com/' rel='noopener noreferrer' target='_blank'>
+                <img src={ rsp } alt='' />
+                <div className='text'>
                   <h3>RennSport Performance</h3>
                   <span>
                     Visit Website
@@ -27,9 +27,9 @@ export default class Work extends Component {
               </a>
             </li>
             <li>
-              <a href="http://www.kiiolabs.info/" rel="noopener noreferrer" target="_blank">
-                <img src={ KiioLabs } alt="" />
-                <div className="text">
+              <a href='http://www.kiiolabs.info/' rel='noopener noreferrer' target='_blank'>
+                <img src={ KiioLabs } alt='' />
+                <div className='text'>
                   <h3>Kiio Labs</h3>
                   <span>
                     Visit Website
@@ -38,9 +38,9 @@ export default class Work extends Component {
               </a>
             </li>
             <li>
-              <a href="https://www.skypointballoons.com" rel="noopener noreferrer" target="_blank">
-                <img src={ skypoint } alt="" />
-                <div className="text">
+              <a href='https://www.skypointballoons.com' rel='noopener noreferrer' target='_blank'>
+                <img src={ skypoint } alt='' />
+                <div className='text'>
                   <h3>SkyPoint Ballons</h3>
                   <span>
                     Visit Website

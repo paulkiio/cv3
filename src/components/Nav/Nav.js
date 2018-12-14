@@ -10,18 +10,18 @@ export default class Nav extends Component {
 	}
 	render () {
 		return (
-			<Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right>
+			<Menu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} right>
 				<ul>
-					<li className="menu-item">
-						<Link to="/">Home</Link>
+					<li className='menu-item'>
+						<Link to='/'>Home</Link>
 					</li>
-					<li className="menu-item">
-						<Link to="/resume">Resume</Link>
+					<li className='menu-item'>
+						<Link to='/resume'>Resume</Link>
 					</li>
-					<li className="menu-item">
-						<Link to="/work">Work</Link>
+					<li className='menu-item'>
+						<Link to='/work'>Work</Link>
 					</li>
-					{/* <li onClick={this.showSettings} className="menu-item--small" href="">
+					{/* <li onClick={this.showSettings} className='menu-item--small' href=''>
 						Settings
 					</li> */}
 				</ul>
