@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { Col } from "reactstrap";
 import './Resume.sass'
+import { MdHome } from 'react-icons/md';
 
 export default class Resume extends Component {
   state = {}
   render () {
     return <Col className="mt-5" lg="10" md="10" sm="10" xs={{ size: 10, offset: 1 }}>
-        <a href="index.html" className="home-button">
-          <span className="fa fa-home" />
-        </a>
+        <a href="/" className="home-button"><MdHome size='2em' color='#008080'/></a>
         <h1 className="mb-5">Experience</h1>
         <div className="mb-5">
           <ul className="resume-list">
