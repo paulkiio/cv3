@@ -22,7 +22,7 @@ export default class Home extends Component {
 						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer,immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id='currentDay'>{ getCurrentDay() }</span> 😉
 					</p>
 
-					<p>
+					<p className='social-links'>
 						<a href='https://www.linkedin.com/in/paulwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>LinkedIn</a>
 						<a href='https://github.com/paulkiio' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
 						<a href='https://www.instagram.com/the_pkw1/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Instagram</a>
@@ -32,7 +32,7 @@ export default class Home extends Component {
 				<Row>
 					<Col lg='6' md='6' xs='6'>
 						<div className='media custom-media  d-block'>
-							<span><MdWeb size='5em' color='#008080'/></span>
+							<span><MdWeb size='5em'/></span>
 							<div className='media-body'>
 								<h4 className='mt-3'>
 									<a href='/'rel='noopener noreferrer' target='_blank'>Websites</a>
@@ -45,7 +45,7 @@ export default class Home extends Component {
 					</Col>
 					<Col lg='6' md='6' xs='6'>
 						<div className='media custom-media  d-block'>
-							<span><MdDevicesOther size='5em' color='#008080'/></span>
+							<span><MdDevicesOther size='5em'/></span>
 							<div className='media-body'>
 								<h4 className='mt-3'>
 									<a href='http://www.kiiolabs.info/' rel='noopener noreferrer' target='_blank'>Tech Repair</a>
