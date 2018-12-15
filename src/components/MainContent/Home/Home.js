@@ -38,7 +38,7 @@ export default class Home extends Component {
 									<a href='/'rel='noopener noreferrer' target='_blank'>Websites</a>
 								</h4>
 								<p>
-									If you are looking for a Quality, Responsive, Fully-customised website at affordable prices then I'm your guy.
+									Quality, Responsive, Fully-customised website at affordable prices.
 								</p>
 							</div>
 						</div>
@@ -48,10 +48,10 @@ export default class Home extends Component {
 							<span><MdDevicesOther size='5em' color='#008080'/></span>
 							<div className='media-body'>
 								<h4 className='mt-3'>
-									<a href='http://www.kiiolabs.info/' rel='noopener noreferrer' target='_blank'>Electronics Repair</a>
+									<a href='http://www.kiiolabs.info/' rel='noopener noreferrer' target='_blank'>Tech Repair</a>
 								</h4>
 								<p>
-									I make it a point to incorporate education during the diagnosis/repair process so my valued customers are always up to date on the latest tips and tricks.
+									Toubleshooting and repair for all your favorite consumer electronics.
 								</p>
 							</div>
 						</div>
