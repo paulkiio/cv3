@@ -21,8 +21,8 @@ export default class Nav extends Component {
 
 	render () {
 		return (
-			<Menu pageWrapId={'page-wrap'}
-						outerContainerId={'outer-container'}
+			<Menu pageWrapId={ 'page-wrap' }
+						outerContainerId={ 'outer-container' }
 						right
 						isOpen={ this.state.menuOpen }
 						onStateChange={ (state) => this.handleStateChange(state) }
@@ -32,14 +32,11 @@ export default class Nav extends Component {
 						<Link to='/' onClick={ () => this.closeMenu() }>Home</Link>
 					</li>
 					<li className='menu-item'>
-						<Link to='/resume' onClick={() => this.closeMenu() }>Resume</Link>
+						<Link to='/resume' onClick={ () => this.closeMenu() }>Resume</Link>
 					</li>
 					<li className='menu-item'>
 						<Link to='/work' onClick={ () => this.closeMenu() }>Work</Link>
 					</li>
-					{/* <li onClick={this.showSettings} className='menu-item--small' href=''>
-						Settings
-					</li> */}
 				</ul>
 			</Menu>
 		)

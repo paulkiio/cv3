@@ -19,7 +19,7 @@ export default class Home extends Component {
 				<h1>Hi, I'm Paul Wathome</h1>
 				<p className='lead mb-3'>Developer &amp; Tech Geek</p>
 					<p>
-						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer,immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id='currentDay'>{getCurrentDay()}</span> 😉
+						Currently based in Indianapolis Indiana. I am passionated about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer,immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id='currentDay'>{ getCurrentDay() }</span> 😉
 					</p>
 
 					<p>
