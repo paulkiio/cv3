@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.sass';
 import { Row } from 'reactstrap';
 import Nav from './components/Nav/Nav';
