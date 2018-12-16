@@ -11,7 +11,7 @@ export default class Work extends Component {
   render () {
     return (
       <Col className='mt-5' lg='10' md='10' sm='10' xs={{ size: 10, offset: 1 }}>
-        <a href='/' className='home-button'><span><MdHome size='2em' color='#008080'/></span></a>
+        <a href='/' className='home-button'><span><MdHome size='2em'/></span></a>
         <h1 className='mb-5'>Portfolio</h1>
         <div className='mb-5'>
           <ul className='portfolio-list'>

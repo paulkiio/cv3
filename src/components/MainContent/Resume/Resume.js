@@ -10,7 +10,7 @@ export default class Resume extends Component {
   render() {
     return (
       <Col className='mt-5' lg='10' md='10' sm='10' xs={{ size: 10, offset: 1 }}>
-        <a href='/' className='home-button'><MdHome size='2em' color='#008080' /></a>
+        <a href='/' className='home-button'><MdHome size='2em'/></a>
         <h1 className='mb-5'>Experience</h1>
         <div className='mb-5'>
           <ul className='resume-list'>
@@ -26,7 +26,7 @@ export default class Resume extends Component {
                 calls with the client to discuss technical aspects of
                 implementation.<br />
                 &bull; Write performant Javascript programs that
-                use our API to collect shopper behavioral data on client
+                uses our API to collect shopper behavioral data on client
                 websites.<br />
               </p>
             </li>
@@ -37,10 +37,6 @@ export default class Resume extends Component {
                 &bull; Webiste Design + Implementation
                 <br />
                 &bull; Consumer Electronics Repair
-                <br />
-                &bull; Device Diagnosis
-                <br />
-                &bull; Infection Removal
                 <br />
                 &bull; Operating System Re-install
                 <br />
@@ -77,7 +73,7 @@ export default class Resume extends Component {
             </li>
           </ul>
           <div className='text-center'>
-            <a href={ CV } download><MdFileDownload size='2em' color='#008080' />Download CV</a>
+            <a href={ CV } download><MdFileDownload size='2em'/>Download CV</a>
           </div>
         </div>
       </Col>
