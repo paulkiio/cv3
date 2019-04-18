@@ -48,7 +48,7 @@ export default class Home extends Component {
 							<span><MdDevicesOther size='5em'/></span>
 							<div className='media-body'>
 								<h4 className='mt-3'>
-									<a href='http://www.kiiolabs.info/' rel='noopener noreferrer' target='_blank'>Tech Repair</a>
+									<a href='http://kiiolabs.s3-website.us-east-2.amazonaws.com/' rel='noopener noreferrer' target='_blank'>Tech Repair</a>
 								</h4>
 								<p>
 									Toubleshooting and repair for all your favorite consumer electronics.

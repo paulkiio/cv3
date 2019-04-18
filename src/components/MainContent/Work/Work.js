@@ -27,7 +27,7 @@ export default class Work extends Component {
               </a>
             </li>
             <li>
-              <a href='http://www.kiiolabs.info/' rel='noopener noreferrer' target='_blank'>
+              <a href='http://kiiolabs.s3-website.us-east-2.amazonaws.com/' rel='noopener noreferrer' target='_blank'>
                 <img src={ KiioLabs } alt='' />
                 <div className='text'>
                   <h3>Kiio Labs</h3>
