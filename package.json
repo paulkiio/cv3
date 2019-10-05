@@ -30,6 +30,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "aws-sdk": "^2.543.0",
+    "dotenv": "^8.1.0",
+    "grunt": "^1.0.4",
+    "grunt-aws": "^0.7.1",
+    "grunt-contrib-uglify": "^4.0.1",
     "node-sass": "^4.11.0"
   }
 }
