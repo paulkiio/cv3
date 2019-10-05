@@ -1,0 +1,65 @@
+@import '../../../variables.sass';
+
+a
+  color: $theme-color
+
+.portfolio-list
+  padding: 0
+  margin: 0
+  li
+    padding: 0
+    margin: 0 0 20px 0
+    display: block
+    list-style: none
+    padding: 10px
+    border: 1px solid #e6e6e6
+    -webkit-transition: .3s all ease
+    -o-transition: .3s all ease
+    transition: .3s all ease
+    &:hover
+      -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1)
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1)
+    a
+      display: block
+      position: relative
+      &:before
+        position: absolute
+        content: ""
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        background: rgb(0, 128, 128)
+        -webkit-transition: .3s all ease
+        -o-transition: .3s all ease
+        transition: .3s all ease
+        visibility: hidden
+        opacity: 0
+      img
+        max-width: 100%
+      .text
+        position: absolute
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        transform: translateY(-50%)
+        text-align: center
+        left: 0
+        right: 0
+        opacity: 0
+        visibility: hidden
+        -webkit-transition: .3s all ease
+        -o-transition: .3s all ease
+        transition: .3s all ease
+        h3
+          color: #fff
+        span
+          color: #fff
+          opacity: .8
+      &:hover
+        &:before
+          visibility: visible
+          opacity: 1
+        .text
+          opacity: 1
+          visibility: visible
