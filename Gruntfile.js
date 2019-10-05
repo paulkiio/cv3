@@ -26,7 +26,7 @@ module.exports = (grunt) => {
   });
   grunt.loadNpmTasks('grunt-aws');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.registerTask('deploy', ['S3 > CDN'], function () {
+  grunt.registerTask('deploy', ['S3 > CDN'], () => {
     grunt.task.run(['s3', 'cloudfront']);
   });
 };
