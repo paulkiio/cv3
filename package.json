@@ -35,6 +35,6 @@
     "grunt": "^1.0.4",
     "grunt-aws": "^0.7.1",
     "grunt-contrib-uglify": "^4.0.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   }
 }
