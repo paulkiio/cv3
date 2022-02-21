@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col } from 'reactstrap';
-import './Resume.sass';
+import './Resume.css';
 import CV from '../../../assets/Paul_Wathome_Resume.pdf';
 import { MdHome } from 'react-icons/md';
 import { MdFileDownload } from 'react-icons/md';
