@@ -25,7 +25,7 @@ export default class Home extends Component {
 					<p className='social-links'>
 						<a href='https://www.linkedin.com/in/paulwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>LinkedIn</a>
 						<a href='https://github.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
-						<a href='https://www.instagram.com/the_pkw1/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Instagram</a>
+						<a href='https://www.instagram.com/the_pkw/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Instagram</a>
       	 	</p>
 
 				<h2 className='mb-4 mt-4'>Services</h2>
