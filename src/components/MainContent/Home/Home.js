@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.sass';
+import './Home.css';
 import { Col, Row } from 'reactstrap';
 import { MdWeb } from 'react-icons/md';
 import { MdDevicesOther } from 'react-icons/md';
