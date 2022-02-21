@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col } from 'reactstrap';
-import './MainImage.sass';
+import './MainImage.css';
 
 export default class MainImage extends Component {
 	state = {}

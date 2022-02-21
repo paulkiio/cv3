@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Nav.sass';
+import './Nav.css';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
