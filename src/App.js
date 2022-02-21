@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.sass';
+import './App.css';
 import { Row } from 'reactstrap';
 import Nav from './components/Nav/Nav';
 import MainImage from './components/MainImage/MainImage';

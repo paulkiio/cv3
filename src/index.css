@@ -1,0 +1,4 @@
+html, body {
+  overflow-x: hidden; }
+  html *, body * {
+    outline: none; }
