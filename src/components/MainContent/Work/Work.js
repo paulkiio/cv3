@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col } from 'reactstrap';
-import './Work.sass';
+import './Work.css';
 import { MdHome } from 'react-icons/md';
 import rsp from '../../../assets/images/rsp.png';
 import KiioLabs from '../../../assets/images/KiioLabs.png';

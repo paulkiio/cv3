@@ -1,4 +1,4 @@
-@import '../../../variables.css';
+@import '../../../_variables.css';
 
 a {
 	color: var(--theme-color); } 
