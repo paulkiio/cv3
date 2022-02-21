@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './MainContent.sass';
+import './MainContent.css';
 import routes from '../../Routes';
 import { Col } from 'reactstrap';
 import { Route } from 'react-router-dom';
