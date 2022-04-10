@@ -15,7 +15,8 @@ export default class Work extends Component {
         <h1 className='mb-5'>Portfolio</h1>
         <div className='mb-5'>
           <ul className='portfolio-list'>
-            <li>
+            Coming soon...🚧🚧🚧🚧🚧
+            {/* <li>
               <a href='https://www.rennsportperformance.com/' rel='noopener noreferrer' target='_blank'>
                 <img src={ rsp } alt='' />
                 <div className='text'>
@@ -25,8 +26,8 @@ export default class Work extends Component {
                   </span>
                 </div>
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href='http://kiiolabs.s3-website.us-east-2.amazonaws.com/' rel='noopener noreferrer' target='_blank'>
                 <img src={ KiioLabs } alt='' />
                 <div className='text'>
@@ -36,8 +37,8 @@ export default class Work extends Component {
                   </span>
                 </div>
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href='https://www.skypointballoons.com' rel='noopener noreferrer' target='_blank'>
                 <img src={ skypoint } alt='' />
                 <div className='text'>
@@ -47,7 +48,7 @@ export default class Work extends Component {
                   </span>
                 </div>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </Col>
