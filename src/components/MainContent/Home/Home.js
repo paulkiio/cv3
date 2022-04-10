@@ -25,17 +25,17 @@ export default class Home extends Component {
 					<p className='social-links'>
 						<a href='https://www.linkedin.com/in/paulwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>LinkedIn</a>
 						<a href='https://github.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
-						<a href='https://twitter.com/the_pkw/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Twitter</a>
+						<a href='https://twitter.com/encryptedkenyan/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Twitter</a>
       	 	</p>
 
 				<h2 className='mb-4 mt-4'>What I'm currently up to...</h2>
 				<Row>
 					<Col lg='6' md='6' xs='6'>
 						<div className='media custom-media  d-block'>
-							<span><MdWeb size='5em'/></span>
+							{/* <span><MdWeb size='5em'/></span> */}
 							<div className='media-body'>
 								<h4 className='mt-3'>
-									<a href='/'rel='noopener noreferrer' target='_blank'>Developer @ Boost</a>
+									<a href='https://boost.education'rel='noopener noreferrer' target='_blank'>Developer @ Boost</a>
 								</h4>
 								<p>
 									Boost is a personal notification assistant for students on their smartphone.
@@ -45,7 +45,7 @@ export default class Home extends Component {
 					</Col>
 					<Col lg='6' md='6' xs='6'>
 						<div className='media custom-media  d-block'>
-							<span><MdDevicesOther size='5em'/></span>
+							{/* <span><MdDevicesOther size='5em'/></span> */}
 							<div className='media-body'>
 								<h4 className='mt-3'>
 									<a href='http://kiiolabs.s3-website.us-east-2.amazonaws.com/' rel='noopener noreferrer' target='_blank'>Project Nala</a>
