@@ -15,8 +15,29 @@ export default class Resume extends Component {
         <div className='mb-5'>
           <ul className='resume-list'>
             <li>
-              <h3>Implementation Engineer, SmarterHQ</h3>
-              <p className='date'>Dec 2017 - Present</p>
+              <h3>Mobile Developer, Boost Education</h3>
+              <p className='date'>Aug 2021 - Current</p>
+              <p>
+                &bull; Implementation of features across multiple code bases.
+                <br />
+                &bull; Initiate deployments to both IOS and Android
+                <br />
+              </p>
+            </li>
+            {/* <li>
+              <h3>Solutions Consultant, Kiio Labs</h3>
+              <p className='date'>January 2019 - Current</p>
+              <p>
+                &bull; Webiste Design + Implementation
+                <br />
+                &bull; Mobile App MVPs
+                <br />
+                &bull; Data Recovery
+              </p>
+            </li> */}
+            <li>
+              <h3>Implementation Engineer, Wunderkind (SHQ)</h3>
+              <p className='date'>Dec 2017 - Oct 2019 & Jan 2021 - Aug 2021</p>
               <p>
                 &bull; Own the process of scoping the client’s website to
                 understand the structure and availability of shopper
@@ -29,20 +50,7 @@ export default class Resume extends Component {
                 uses our API to collect shopper behavioral data on client
                 websites.<br />
               </p>
-            </li>
-            <li>
-              <h3>Developer / Technician, Kiio Labs</h3>
-              <p className='date'>Nov 2005 - Current</p>
-              <p>
-                &bull; Webiste Design + Implementation
-                <br />
-                &bull; Consumer Electronics Repair
-                <br />
-                &bull; Operating System Re-install
-                <br />
-                &bull; Data Recovery
-              </p>
-            </li>
+            </li>         
             <li>
               <h3>Software Developer, Pondurance</h3>
               <p className='date'>Aug 2017 - Oct 2017</p>
