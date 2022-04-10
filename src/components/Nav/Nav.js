@@ -49,7 +49,7 @@ export default class Nav extends Component {
           </li>
         </ul>
         <p className="social">
-          <a href="https://www.instagram.com/the_pkw1/" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
+          <a href="https://www.instagram.com/_ekschannel/" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
             <FaInstagram size="2em" color='#c32aa3'/>
           </a>
           <a href="https://github.com/pwathome" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
@@ -59,7 +59,7 @@ export default class Nav extends Component {
             <FaLinkedin size="2em" color='#007bb5' />
           </a>
         </p>
-				<a href='mailto: wathome.paul@gmail.com' className='text-center'>
+				<a href='mailto:kiioadvice@gmail.com' className='text-center'>
 					<FaEnvelopeSquare size="1.5em"/>
 				</a>
 				<footer className='text-center'>
