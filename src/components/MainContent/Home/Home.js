@@ -9,9 +9,9 @@ export default class Home extends Component {
 
 		function getCurrentDay () {
 			const today = new Date(),
-						day = today.getDay(),
-						dayList = ['Sunday','Monday','Tuesday','Wednesday ','Thursday','Friday','Saturday'];
-			return dayList[day];
+				day = today.getDay(),
+				dayList = ['Sunday','Monday','Tuesday','Wednesday ','Thursday','Friday','Saturday'];
+				return dayList[day];
 		}
 
 		return (
@@ -25,8 +25,9 @@ export default class Home extends Component {
 					<p className='social-links'>
 						<a href='https://www.linkedin.com/in/paulwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>LinkedIn</a>
 						<a href='https://github.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
-						<a href='https://twitter.com/encryptedkenyan/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Twitter</a>
-      	 	</p>
+						<a href='https://gitlab.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitLab</a>
+						{/* <a href='https://twitter.com/encryptedkenyan/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Twitter</a> */}
+      	 			</p>
 
 				<h2 className='mb-4 mt-4'>What I'm currently up to...</h2>
 				<Row>
