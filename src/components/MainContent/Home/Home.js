@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
 import { Col, Row } from 'reactstrap';
-import { MdWeb } from 'react-icons/md';
-import { MdDevicesOther } from 'react-icons/md';
+// import { MdWeb } from 'react-icons/md';
+// import { MdDevicesOther } from 'react-icons/md';
 
 export default class Home extends Component {
 	render() {
@@ -17,6 +17,7 @@ export default class Home extends Component {
 		return (
 			<Col className='mt-5' lg='10' md='10' sm='10' xs={{ size: 10, offset: 1 }}>
 				<h1>Hi, I'm Paul Wathome</h1>
+				<a href='mailto:pkwdigital@gmail.com'>[AVAILABLE FOR HIRE]</a>
 				<p className='lead mb-3'>Developer &amp; Tech Geek</p>
 					<p>
 						Currently based in Indianapolis Indiana. I am passionate about leveraging technology to solve complex problems. When I'm not writing code, some of my hobbies include playing soccer, immersing myself in other cultures through travel, DJ-ing and working on my cars. Have look around and have a fantastic <span id='currentDay'>{ getCurrentDay() }</span> 😉
@@ -36,10 +37,10 @@ export default class Home extends Component {
 							{/* <span><MdWeb size='5em'/></span> */}
 							<div className='media-body'>
 								<h4 className='mt-3'>
-									<a href='https://boost.education'rel='noopener noreferrer' target='_blank'>Developer @ Boost</a>
+									<a href='http://example.com'rel='noopener noreferrer' target='_blank'>Freelancer @ Kiio Labs</a>
 								</h4>
 								<p>
-									Boost is a personal notification assistant for students on their smartphone.
+									Develop and maintain various projects for clients. Always iterating & improving the internal processes.
 								</p>
 							</div>
 						</div>
@@ -49,10 +50,10 @@ export default class Home extends Component {
 							{/* <span><MdDevicesOther size='5em'/></span> */}
 							<div className='media-body'>
 								<h4 className='mt-3'>
-									<a href='http://kiiolabs.s3-website.us-east-2.amazonaws.com/' rel='noopener noreferrer' target='_blank'>Project Nala</a>
+									<a href='http://example.com' rel='noopener noreferrer' target='_blank'>Encrypted Kenyan</a>
 								</h4>
 								<p>
-									Nala is my daily driven Audi that I tinker and hack on. Follow along <a href='http://www.example.com' rel="noopener noreferrer" target='_blank'>here</a> for more details.
+									Music makes the world make sense. <a href='https://www.mixcloud.com/encrypted_kenyan/' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years.
 								</p>
 							</div>
 						</div>
