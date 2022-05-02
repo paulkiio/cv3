@@ -59,7 +59,7 @@ export default class Nav extends Component {
             <FaLinkedin size="2em" color='#007bb5' />
           </a>
         </p>
-				<a href='mailto:kiioadvice@gmail.com' className='text-center'>
+				<a href='mailto:pkwdigital@gmail.com' className='text-center'>
 					<FaEnvelopeSquare size="1.5em"/>
 				</a>
 				<footer className='text-center'>
