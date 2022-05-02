@@ -53,7 +53,7 @@ export default class Home extends Component {
 									<a href='http://example.com' rel='noopener noreferrer' target='_blank'>Encrypted Kenyan</a>
 								</h4>
 								<p>
-									Music makes the world make sense. <a href='https://www.mixcloud.com/encrypted_kenyan/' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years.
+									Music makes the world make sense. <a href='https://soundcloud.com/encrypted_kenyan' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years.
 								</p>
 							</div>
 						</div>
