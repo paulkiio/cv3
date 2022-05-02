@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col } from 'reactstrap';
 import './Resume.css';
-import CV from '../../../assets/Paul_Wathome_Resume.pdf';
+import CV from '../../../assets/Paul_Wathome_Resume_2022.pdf';
 import { MdHome } from 'react-icons/md';
 import { MdFileDownload } from 'react-icons/md';
 
@@ -16,7 +16,7 @@ export default class Resume extends Component {
           <ul className='resume-list'>
             <li>
               <h3>Mobile Developer, Boost Education</h3>
-              <p className='date'>Aug 2021 - Current</p>
+              <p className='date'>Aug 2021 - May 2022</p>
               <p>
                 &bull; Implementation of features across multiple code bases.
                 <br />

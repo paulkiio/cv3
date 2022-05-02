@@ -15,7 +15,7 @@ export default class Work extends Component {
         <h1 className='mb-5'>Portfolio</h1>
         <div className='mb-5'>
           <ul className='portfolio-list'>
-            Coming soon... <span role='img' aria-label='emoji'>🚧🚧🚧🚧🚧</span>
+            Updates underway <br />check back soon... <span role='img' aria-label='emoji'>🚧🚧🚧🚧🚧</span>
             {/* <li>
               <a href='https://www.rennsportperformance.com/' rel='noopener noreferrer' target='_blank'>
                 <img src={ rsp } alt='' />
