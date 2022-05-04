@@ -18,10 +18,13 @@ export default class Resume extends Component {
               <h3>Mobile Developer, Boost Education</h3>
               <p className='date'>Aug 2021 - May 2022</p>
               <p>
-                &bull; Implementation of features across multiple code bases.
+                &bull; Assist in development of new features including two major launches
                 <br />
-                &bull; Initiate deployments to both IOS and Android
+                &bull; Fix and deploy outstanding bugs
                 <br />
+                &bull; Provisioned new customers in AWS
+                <br />
+                &bull; Upgraded front end state management library
               </p>
             </li>
             {/* <li>
