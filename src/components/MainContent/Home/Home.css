@@ -26,3 +26,19 @@ a {
 
 .media span {
   color: var(--theme-color); }
+
+
+.home-container {
+  margin: 1rem;
+}
+
+.status-container {
+  display: flex;
+  /* background-color: #b3b3b3; */
+  height: 300px;
+}
+
+.status-container .media {
+  width: 100%;
+  /* background-color: aqua; */
+}
