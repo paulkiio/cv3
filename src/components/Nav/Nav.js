@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Nav.css';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
-import { FaInstagram } from 'react-icons/fa';
+// import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelopeSquare } from 'react-icons/fa';
@@ -30,7 +30,8 @@ export default class Nav extends Component {
 		}
 
 		return (
-		<Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right isOpen={this.state.menuOpen} onStateChange={state => this.handleStateChange(state)}>
+		<Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} isOpen={this.state.menuOpen} onStateChange={state => this.handleStateChange(state)}>
+      <div className="inner-container">
         <ul>
           <li className="menu-item">
             <Link to="/" onClick={() => this.closeMenu()}>
@@ -49,21 +50,25 @@ export default class Nav extends Component {
           </li>
         </ul>
         <p className="social">
-          <a href="https://www.instagram.com/_ekschannel/" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
+          {/* <a href="https://www.instagram.com/_ekschannel/" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
             <FaInstagram size="2em" color='#c32aa3'/>
-          </a>
+          </a> */}
           <a href="https://github.com/pwathome" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
             <FaGithub size="2em" color='white'/>
           </a>
           <a href="https://www.linkedin.com/in/paulwathome" target="_blank" rel="noopener noreferrer" className="mr-2 mb-2">
             <FaLinkedin size="2em" color='#007bb5' />
           </a>
+          <a href='mailto:pkwdigital@gmail.com' className='text-center'>
+            <FaEnvelopeSquare size="1.5em"/>
+          </a>
         </p>
-				<a href='mailto:pkwdigital@gmail.com' className='text-center'>
-					<FaEnvelopeSquare size="1.5em"/>
-				</a>
+
+      </div>
 				<footer className='text-center'>
 					&copy; Kiio Labs <span>{ year() }</span>
+          {/* <br/>
+          <span>Last updated on {this.state.lastUpdated}</span> */}
 				</footer>
       </Menu>
 		);

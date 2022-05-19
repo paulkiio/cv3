@@ -3,7 +3,7 @@
   position: fixed;
   width: 36px;
   height: 30px;
-  right: 36px;
+  right: 735px;
   top: 36px; }
 
 /* Color/shape of burger icon bars */
@@ -34,12 +34,14 @@
 
 /* Wrapper for item list */
 .bm-item-list {
-  margin: 0;
-  padding: 0; }
+  display: grid;
+  justify-content: center;
+  align-content: center; }
 
 /* Custom styles */
 .menu-item a {
-  color: var(--theme-color); }
+  color: var(--theme-color);
+  font-size: 50px; }
 
 ul {
   list-style-type: none; }
@@ -53,3 +55,11 @@ footer {
   bottom: 0;
   right: 0;
   left: 0; }
+
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px) {
+  .bm-burger-button {
+    right: 320px;
+  }
+} 
