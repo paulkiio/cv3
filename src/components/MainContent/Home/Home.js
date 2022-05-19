@@ -20,7 +20,7 @@ const Home = () => {
             <p className='social-links'>
                 <a href='https://www.linkedin.com/in/paulwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>LinkedIn</a>
                 <a href='https://github.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
-                {/* <a href='https://gitlab.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitLab</a> */}
+                <a href='https://gitlab.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitLab</a>
                 {/* <a href='https://twitter.com/encryptedkenyan/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Twitter</a> */}
             </p>
         </div>
@@ -32,10 +32,12 @@ const Home = () => {
                 {/* <span><MdWeb size='5em'/></span> */}
                 <div className='media-body'>
                     <h4 className='mt-3'>
-                        <a href='http://example.com'rel='noopener noreferrer' target='_blank'>Freelancer @ Kiio Labs</a>
+                        <a href='http://example.com'rel='noopener noreferrer' target='_blank'>Freelance</a>
                     </h4>
                     <p>
-                        Develop and maintain various projects for clients. Always iterating & improving the internal processes.
+                        Develop, update and maintain existing projects for clients. Want to
+                        <a href='mailto:pkwdigital@gmail.com'> work with me? </a>
+                        Reach out and lets chat.
                     </p>
                 </div>
             </div>
@@ -47,7 +49,7 @@ const Home = () => {
                         <a href='http://example.com' rel='noopener noreferrer' target='_blank'>Encrypted Kenyan</a>
                     </h4>
                     <p>
-                        Music makes the world make sense. <a href='https://soundcloud.com/encrypted_kenyan' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years.
+                        Music makes the world make sense. <a href='https://soundcloud.com/encrypted_kenyan' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years. More content coming very soon 🎧
                     </p>
                 </div>
             </div>
