@@ -10,7 +10,7 @@ RUN npm install yarn
 
 RUN yarn add react-scripts --save
 
-RUN yarn
+RUN yarn --silent
 
 COPY . /app
 
