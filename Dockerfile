@@ -8,7 +8,7 @@ COPY yarn.lock /app/yarn.lock
 
 RUN npm install yarn
 
-RUN yarn add react-scripts --save
+RUN yarn add serve react-scripts --save
 
 RUN yarn --silent
 
@@ -20,4 +20,6 @@ ENV PORT=8081
 
 EXPOSE 8081
 
-CMD ["yarn", "start"]
+RUN yarn build
+
+CMD ["serve -s build"]
