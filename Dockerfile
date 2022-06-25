@@ -22,4 +22,4 @@ EXPOSE 8081
 
 RUN yarn build
 
-CMD ["serve -s build"]
+CMD ["serve", "-s", "build"]
