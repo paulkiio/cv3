@@ -1,25 +1,23 @@
-FROM node:alpine3.12
+# pull image
+FROM node:17-alpine3.14
 
+# set working dirctory
 WORKDIR /app
 
-COPY package.json /app/package.json
+# set ENV path
+ENV PATH ./node_modules/.bin:$PATH
 
-COPY yarn.lock /app/yarn.lock
-
-RUN npm install yarn
-
-RUN yarn add serve react-scripts --save
-
-RUN yarn --silent
-
-COPY . /app
-
-ENV PATH /app/node_modules/.bin:$PATH
-
+# set ENV port
 ENV PORT=8081
 
-EXPOSE 8081
+# copy everything from local into the container
+COPY . .
 
-RUN yarn build
+# install npm dependancies
+RUN npm install
 
+# build app
+RUN npm run build
+
+# start app
 CMD ["serve", "-s", "build"]
