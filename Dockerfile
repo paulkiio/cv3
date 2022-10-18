@@ -1,23 +1,26 @@
-# pull image
-FROM node:17-alpine3.14
-
+# BUILD ENVIRONMENT
+FROM node:9.6.1 as builder
+# make working directory
+RUN mkdir /usr/src/app
 # set working dirctory
-WORKDIR /app
-
+WORKDIR /usr/src/app
 # set ENV path
 ENV PATH ./node_modules/.bin:$PATH
-
-# set ENV port
-ENV PORT=8081
-
 # copy everything from local into the container
-COPY . .
-
+COPY . /usr/src/app
 # install npm dependancies
 RUN npm install
-
 # build app
 RUN npm run build
 
+# PRODUCTION ENVIRONMENT
+FROM nginx:1.13.9-alpine
+RUN rm -rf /etc/nginx/conf.d
+RUN mkdir -p /etc/nginx/conf.d
+COPY ./default.conf /etc/nginx/conf.d/
+COPY --from=builder /usr/src/app/build /usr/share/nginx/html
+# expose port
+EXPOSE 8081
 # start app
 CMD ["serve", "-s", "build"]
+
