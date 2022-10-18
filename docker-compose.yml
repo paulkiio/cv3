@@ -1,6 +1,12 @@
-version: '3'
+version: "3.8"
 services:
-  web:
-    build: .
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/app
     ports:
-      - "8081:8081"
+      - 8081:8081
+    image: app:pkw-cv3
+    container_name: pkw-cv3
+    command: serve -s build
