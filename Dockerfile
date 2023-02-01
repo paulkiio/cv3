@@ -1,23 +1,58 @@
-# pull image
-FROM node:17-alpine3.14
+# syntax=docker/dockerfile:1.4
 
-# set working dirctory
+# 1. For build React app
+FROM node:lts AS development
+
+# Set working directory
 WORKDIR /app
 
-# set ENV path
-ENV PATH ./node_modules/.bin:$PATH
+# 
+COPY package.json /app/package.json
+COPY package-lock.json /app/package-lock.json
 
-# set ENV port
-ENV PORT=8081
+# Same as npm install
+RUN npm ci
 
-# copy everything from local into the container
-COPY . .
+COPY . /app
 
-# install npm dependancies
-RUN npm install
+ENV CI=true
+ENV PORT=3000
 
-# build app
+CMD [ "npm", "start" ]
+
+FROM development AS build
+
 RUN npm run build
 
-# start app
-CMD ["serve", "-s", "build"]
+
+FROM development as dev-envs
+RUN <<EOF
+apt-get update
+apt-get install -y --no-install-recommends git
+EOF
+
+RUN <<EOF
+useradd -s /bin/bash -m vscode
+groupadd docker
+usermod -aG docker vscode
+EOF
+# install Docker tools (cli, buildx, compose)
+COPY --from=gloursdocker/docker / /
+CMD [ "npm", "start" ]
+
+# 2. For Nginx setup
+FROM nginx:alpine
+
+# Copy config nginx
+COPY --from=build /app/.nginx/nginx.conf /etc/nginx/conf.d/default.conf
+
+WORKDIR /usr/share/nginx/html
+
+# Remove default nginx static assets
+RUN rm -rf ./*
+
+# Copy static assets from builder stage
+COPY --from=build /app/build .
+
+# Containers run nginx with global directives and daemon off
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

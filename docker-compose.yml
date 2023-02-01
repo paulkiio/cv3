@@ -1,9 +1,0 @@
-version: "3"
-services:
-  app:
-    build: .
-    ports:
-      - 8081:8081
-    image: paulwathome
-    container_name: paulwathome
-    command: serve -s build
