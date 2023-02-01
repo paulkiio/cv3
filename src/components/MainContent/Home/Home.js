@@ -42,17 +42,17 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='media custom-media  d-block'>
-                {/* <span><MdDevicesOther size='5em'/></span> */}
+            {/* <div className='media custom-media  d-block'>
+              
                 <div className='media-body'>
                     <h4 className='mt-3'>
                         <a href='http://example.com' rel='noopener noreferrer' target='_blank'>Encrypted Kenyan</a>
                     </h4>
                     <p>
-                        Music makes the world make sense. <a href='https://soundcloud.com/encrypted_kenyan' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years. More content coming very soon 🎧
+                        Music makes the world make sense. <a href='https://mixcloud.com/encryptedkenyan' rel="noopener noreferrer" target='_blank'>here's</a> some mixes I've made over the years. More content coming very soon 🎧
                     </p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 }
