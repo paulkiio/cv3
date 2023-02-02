@@ -29,14 +29,12 @@ const Home = () => {
         
         <div className="status-container">
             <div className='media custom-media  d-block'>
-                {/* <span><MdWeb size='5em'/></span> */}
                 <div className='media-body'>
-                    <h4 className='mt-3'>
-                        <a href='http://example.com'rel='noopener noreferrer' target='_blank'>Freelance</a>
-                    </h4>
+                    <h4 className='mt-3'>Freelancing</h4>
                     <p>
-                        Develop, update and maintain existing projects for clients. Want to
-                        <a href='mailto:pkwdigital@gmail.com'> work with me? </a>
+                        - Update and maintain existing projects for clients. <br />
+                        - Overhauling internal processes. <br /><br />
+                        Want to <a href='mailto:pkwdigital@gmail.com'> work with me? </a>
                         Reach out and lets chat.
                     </p>
                 </div>
