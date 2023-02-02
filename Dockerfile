@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1.4
-
 # 1. For build React app
 FROM node:lts AS development
 
@@ -17,6 +15,7 @@ COPY . /app
 
 ENV CI=true
 ENV PORT=3000
+ENV NODE_OPTIONS="--max-old-space-size=4096"
 
 CMD [ "npm", "start" ]
 
