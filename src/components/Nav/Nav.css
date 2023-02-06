@@ -1,65 +1,55 @@
-/* Position and sizing of burger button */
-.bm-burger-button {
+.navbar-fixed {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  right: 735px;
-  top: 36px; }
+  top: -3rem;
+}
 
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: #373a47; }
+/*----------------------
+  $NAVBAR
+    basic navbar styling
+  ----------------------*/
 
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 24px;
-  width: 24px; }
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7; }
-
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3); }
-
-/* General sidebar styles */
-.bm-menu {
-  background: #373a47;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.8em; }
-
-/* Wrapper for item list */
-.bm-item-list {
-  display: grid;
-  justify-content: center;
-  align-content: center; }
-
-/* Custom styles */
-.menu-item a {
+nav {
+  width: 100%;
   color: var(--theme-color);
-  font-size: 50px; }
+  background: #2e2e2e;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  position: sticky;
+  top: 0;
+}
 
-ul {
-  list-style-type: none; }
+nav ul {
+  text-align: center;
+  margin: 0;
+}
 
-.social {
-  padding: 50px 0 0 20px; }
+nav ul li {
+  display: inline-block;
+  padding: 0 3em;
+  line-height: 3em;
+}
 
-footer {
-  position: absolute;
-  font-size: .7em;
-  bottom: 0;
-  right: 0;
-  left: 0; }
+nav ul li:hover {
+  background: #00939c;
+}
 
-@media only screen   
-and (min-device-width : 360px)   
-and (max-device-width : 640px) {
-  .bm-burger-button {
-    right: 320px;
-  }
-} 
+/*----------------------
+  $BODY
+  ----------------------*/
+
+body {
+  background: #0b6ad4;
+}
+
+/*----------------------
+  $MISC
+  ----------------------*/
+
+.filler {
+  width: 1px;
+  height: 200px;
+}
+
+.two {
+  height: 3000px;
+}

@@ -1,22 +1,32 @@
-import React, { Component } from 'react';
-import './MainContent.css';
-import routes from '../../Routes';
-import { Col } from 'reactstrap';
-import { Route } from 'react-router-dom';
+import React, { Component } from "react"
+import "./MainContent.css"
+import routes from "../../Routes"
+import { Col } from "reactstrap"
+import { Route } from "react-router-dom"
+import Nav from "../Nav/Nav"
 
-export default class MainContent extends Component {
-	state = {}
-	render () {
-		return (
-			<Col id='main-content' lg={{size: 6}} md={{size: 6}} sm={{size: 12, order: 2}} xs={{size: 12, order: 2}}>
-				{routes.map(route => (
-					<Route exact
-						key={ route.path }
-						path={ route.path }
-						component={ route.component }
-					/>
-			  ))}
-			</Col>
-		);
-	}
+const MainContent = () => {
+  return (
+    <>
+      <Nav />
+			<Col
+        id="main-content"
+        lg={{ size: 6 }}
+        md={{ size: 6 }}
+        sm={{ size: 12, order: 2 }}
+        xs={{ size: 12, order: 2 }}
+      >
+        {routes.map((route) => (
+          <Route
+            exact
+            key={route.path}
+            path={route.path}
+            component={route.component}
+          />
+        ))}
+      </Col>
+    </>
+  )
 }
+
+export default MainContent
