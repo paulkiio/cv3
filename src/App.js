@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import "./App.css"
 import { Row } from "reactstrap"
 import MainImage from "./components/MainImage/MainImage"

@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import "./MainContent.css"
 import routes from "../../Routes"
 import { Col } from "reactstrap"
@@ -8,7 +8,6 @@ import Nav from "../Nav/Nav"
 const MainContent = () => {
   return (
     <>
-      <Nav />
 			<Col
         id="main-content"
         lg={{ size: 6 }}
@@ -16,6 +15,7 @@ const MainContent = () => {
         sm={{ size: 12, order: 2 }}
         xs={{ size: 12, order: 2 }}
       >
+      <Nav />
         {routes.map((route) => (
           <Route
             exact
