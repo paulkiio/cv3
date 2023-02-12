@@ -1,14 +1,14 @@
 import React from "react"
 import "./MainContent.css"
 import routes from "../../Routes"
-import { Col } from "reactstrap"
+// import { Col } from "reactstrap"
 import { Route } from "react-router-dom"
 import Nav from "../Nav/Nav"
 
 const MainContent = () => {
   return (
     <>
-			<Col
+			<div
         id="main-content"
         lg={{ size: 6 }}
         md={{ size: 6 }}
@@ -24,7 +24,7 @@ const MainContent = () => {
             component={route.component}
           />
         ))}
-      </Col>
+      </div>
     </>
   )
 }
