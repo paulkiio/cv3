@@ -19,9 +19,9 @@ const Home = () => {
 
             <p className='social-links'>
                 <a href='https://www.linkedin.com/in/paulwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>LinkedIn</a>
-                <a href='https://github.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
                 <a href='https://gitlab.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitLab</a>
-                {/* <a href='https://twitter.com/encryptedkenyan/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Twitter</a> */}
+                <a href='https://github.com/pwathome' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>GitHub</a>
+                <a href='https://medium.com/@pwathome/' target='_blank' rel='noopener noreferrer' className='mr-2 mb-2'>Blog</a>
             </p>
         </div>
         
@@ -32,6 +32,7 @@ const Home = () => {
                 <div className='media-body'>
                     <h4 className='mt-3'>Freelancing</h4>
                     <p>
+                        - Actively looking for new opportunities. <br />
                         - Update and maintain existing projects for clients. <br />
                         - Overhauling internal processes. <br /><br />
                         Want to <a href='mailto:pkwdigital@gmail.com'> work with me? </a>
