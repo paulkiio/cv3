@@ -1,16 +1,16 @@
 import React from 'react';
-import { Col } from 'reactstrap';
+// import { Col } from 'reactstrap';
 import './Work.css';
-import { MdHome } from 'react-icons/md';
+// import { MdHome } from 'react-icons/md';
 import rsp from '../../../assets/images/rsp.png';
 import rfw from '../../../assets/images/rfw.png';
 import skypoint from '../../../assets/images/skypoint.png';
 
 const Work = () => {
 	return (
-		<Col className='mt-5' lg='10' md='10' sm='10' xs={{ size: 10, offset: 1 }}>
-			<a href='/' className='home-button'><span><MdHome size='2em' /></span></a>
-			<h1 className='mb-5'>Portfolio</h1>
+		<div className='work-container'>
+			{/* <a href='/' className='home-button'><span><MdHome size='2em' /></span></a> */}
+			{/* <h1 className='mb-5'>Portfolio</h1> */}
 			<div className='mb-5'>
 				<ul className='portfolio-list'>
 					Updates underway <span role='img' aria-label='emoji'>🚧🚧🚧🚧🚧</span>
@@ -49,7 +49,7 @@ const Work = () => {
 					</li>
 				</ul>
 			</div>
-		</Col>
+		</div>
 	)
 }
 
