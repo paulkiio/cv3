@@ -1,12 +1,12 @@
 import React from 'react';
 // import { Col } from 'reactstrap';
-import './Work.css';
+import './Project.css';
 // import { MdHome } from 'react-icons/md';
 import rsp from '../../../assets/images/rsp.png';
 import rfw from '../../../assets/images/rfw.png';
 import skypoint from '../../../assets/images/skypoint.png';
 
-const Work = () => {
+const Project = () => {
 	return (
 		<div className='work-container'>
 			{/* <a href='/' className='home-button'><span><MdHome size='2em' /></span></a> */}
@@ -53,4 +53,4 @@ const Work = () => {
 	)
 }
 
-export default Work
+export default Project

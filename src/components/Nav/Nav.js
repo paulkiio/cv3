@@ -12,8 +12,8 @@ const Nav = () => {
         <NavLink to="/resume">
           <span>Resume</span>
         </NavLink>
-        <NavLink to="/work">
-          <span>Portfolio</span>
+        <NavLink to="/projects">
+          <span>Projects</span>
         </NavLink>
         <NavLink to="/">
           <span>Contact</span>
