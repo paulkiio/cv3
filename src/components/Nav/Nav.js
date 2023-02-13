@@ -1,25 +1,23 @@
 import React from "react"
 import "./Nav.css"
+import NavLink from "./NavLink"
 
 const Nav = () => {
   return (
     <header class="header">
-      {/* <h1 class="logo">
-        <a href="#">Paul Wathome</a>
-      </h1> */}
       <ul class="main-nav">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Resume</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
+        <NavLink to="/">
+          <span>Home</span>
+        </NavLink>
+        <NavLink to="/resume">
+          <span>Resume</span>
+        </NavLink>
+        <NavLink to="/work">
+          <span>Portfolio</span>
+        </NavLink>
+        <NavLink to="/">
+          <span>Contact</span>
+        </NavLink>
       </ul>
     </header>
   )

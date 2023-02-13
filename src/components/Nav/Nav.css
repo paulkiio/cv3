@@ -1,12 +1,3 @@
-/* * {
-  box-sizing: border-box;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  min-height: 100vh;
-} */
 .main-nav {
   display: flex;
   justify-content: space-around;
@@ -19,25 +10,14 @@ ul {
   list-style: none;
 }
 
-h2,
-h3,
-a {
-  color: #34495e;
-}
-
 a {
   text-decoration: none;
-}
-
-.logo {
-  margin: 0;
-  font-size: 1.45em;
 }
 
 .main-nav {
   margin-top: 5px;
 }
-.logo a,
+
 .main-nav a {
   padding: 10px 15px;
   text-transform: uppercase;
@@ -54,42 +34,40 @@ a {
   color: #718daa;
 }
 
-/* .header {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border: 1px solid #a2a2a2;
-  background-color: #f4f4f4;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-} */
 
 /* ================================= 
   Media Queries
 ==================================== */
-
-@media (min-width: 769px) {
-  .header,
+@media (min-width: 320px) {
   .main-nav {
     display: flex;
+    width: 100%;
   }
-  .header {
-    flex-direction: column;
-    align-items: center;
+  .main-nav span {
+    padding: 0;
   }
-  .header {
-    /* width: 80%; */
-    margin: 0 auto;
-    max-width: 1150px;
+
+  .main-nav a {
+    padding: 0;
   }
 }
 
-@media (min-width: 1025px) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
+@media (min-width: 769px) {
+  .main-nav {
+    display: flex;
+    width: 50%;
+  }
+
+  .main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
   }
 }
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
