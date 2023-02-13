@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { Col } from 'reactstrap';
+// import { Col } from 'reactstrap';
 import './Resume.css';
-import CV from '../../../assets/Paul_Wathome_Resume_2022.pdf';
-import { MdHome } from 'react-icons/md';
+import CV from '../../../assets/Paul_Wathome_Resume_2023.pdf';
+// import { MdHome } from 'react-icons/md';
 import { MdFileDownload } from 'react-icons/md';
 
 export default class Resume extends Component {
   state = {}
   render() {
     return (
-      <Col className='mt-5' lg='10' md='10' sm='10' xs={{ size: 10, offset: 1 }}>
-        <a href='/' className='home-button'><MdHome size='2em'/></a>
-        <h1 className='mb-5'>Experience</h1>
+      <div className='resume-content'>
+        {/* <a href='/' className='home-button'><MdHome size='2em'/></a> */}
+        {/* <h1 className='mb-5'>Experience</h1> */}
         <div className='mb-5'>
           <ul className='resume-list'>
             <li>
@@ -87,7 +87,7 @@ export default class Resume extends Component {
             <a href={ CV } download><MdFileDownload size='2em'/>Download CV</a>
           </div>
         </div>
-      </Col>
+      </div>
     );
   }
 }

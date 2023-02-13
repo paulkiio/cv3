@@ -42,3 +42,20 @@ a {
   width: 100%;
   /* background-color: aqua; */
 }
+
+@media (min-width: 320px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 15px 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .home-container {
+    display: flex;
+    width: 47%;
+    padding: 30px 30px;
+  }
+}

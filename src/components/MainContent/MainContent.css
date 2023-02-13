@@ -1,0 +1,16 @@
+#main-content {
+  width: 50%;
+  /* margin: 0 5px; */
+}
+
+@media (min-width: 769px) {
+  #main-content {
+    width: 50%;
+  }
+}
+
+@media (min-width: 320px) {
+  #main-content {
+    width: 100%;
+  }
+}
