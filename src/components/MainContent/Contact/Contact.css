@@ -1,0 +1,9 @@
+.contact-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  /* border: greenyellow dotted 2px; */
+}

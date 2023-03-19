@@ -4,20 +4,12 @@ import NavLink from "./NavLink"
 
 const Nav = () => {
   return (
-    <header class="header">
-      <ul class="main-nav">
-        <NavLink to="/">
-          <span>Home</span>
-        </NavLink>
-        <NavLink to="/resume">
-          <span>Resume</span>
-        </NavLink>
-        <NavLink to="/projects">
-          <span>Projects</span>
-        </NavLink>
-        <NavLink to="/">
-          <span>Contact</span>
-        </NavLink>
+    <header className="header">
+      <ul className="nav-container">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/resume">Resume</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </ul>
     </header>
   )

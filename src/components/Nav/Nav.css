@@ -1,10 +1,18 @@
-.main-nav {
+.header {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container {
   display: flex;
   justify-content: space-around;
   /* border: red dotted 5px; */
   width: 100%;
 }
+
 ul {
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -14,55 +22,44 @@ a {
   text-decoration: none;
 }
 
-.main-nav {
+.nav-container {
   margin-top: 5px;
 }
 
-.main-nav a {
+.nav-container a {
   padding: 10px 15px;
   text-transform: uppercase;
   text-align: center;
   display: block;
 }
 
-.main-nav a {
+.nav-container a {
   color: #34495e;
   font-size: 0.99em;
 }
 
-.main-nav a:hover {
-  color: #718daa;
+.nav-container a:hover {
+  color: var(--nav-link-color);
 }
 
+a.active {
+  background-color: var(--nav-link-background);
+  color: var(--nav-link-color);
+}
 
 /* ================================= 
   Media Queries
 ==================================== */
-@media (min-width: 320px) {
-  .main-nav {
-    display: flex;
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    /* border: purple 2px dotted; */
     width: 100%;
   }
-  .main-nav span {
-    padding: 0;
-  }
 
-  .main-nav a {
-    padding: 0;
-  }
-}
-
-@media (min-width: 769px) {
-  .main-nav {
-    display: flex;
-    width: 50%;
-  }
-
-  .main-nav a {
-    padding: 10px 15px;
-    text-transform: uppercase;
-    text-align: center;
-    display: block;
+  .nav-container {
+    width: 100%;
+    margin: 0;
+    /* border: green 2px dotted; */
   }
 }
 
