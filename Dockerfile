@@ -17,8 +17,6 @@ ENV CI=true
 ENV PORT=3000
 ENV NODE_OPTIONS="--max-old-space-size=4096"
 
-CMD [ "npm", "start" ]
-
 FROM development AS build
 
 RUN npm run build
