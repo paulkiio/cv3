@@ -1,4 +1,8 @@
-.main-nav {
+header {
+  width: 100%;
+}
+
+.nav-container {
   display: flex;
   justify-content: space-around;
   /* border: red dotted 5px; */
@@ -14,51 +18,64 @@ a {
   text-decoration: none;
 }
 
-.main-nav {
+
+.nav-container {
   margin-top: 5px;
 }
 
-.main-nav a {
+.nav-container a {
   padding: 10px 15px;
   text-transform: uppercase;
   text-align: center;
   display: block;
 }
 
-.main-nav a {
+.nav-container a {
   color: #34495e;
   font-size: 0.99em;
 }
 
-.main-nav a:hover {
+.nav-container a:hover {
   color: #718daa;
+}
+
+a.active {
+  background-color: #718daa;
 }
 
 
 /* ================================= 
   Media Queries
 ==================================== */
-@media (min-width: 320px) {
-  .main-nav {
-    display: flex;
+@media (max-width: 480px) {
+  header {
+    border: purple 2px dotted;
     width: 100%;
   }
-  .main-nav span {
-    padding: 0;
-  }
 
-  .main-nav a {
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* margin: 0 5px 5px 0; */
+    /* padding: 20px; */
+    border: green 2px dotted;
+  }
+  
+  ul a {
     padding: 0;
+    height: 100%;
+    border: yellow 2px dotted;
   }
 }
 
 @media (min-width: 769px) {
-  .main-nav {
+  .nav-container {
     display: flex;
     width: 50%;
   }
 
-  .main-nav a {
+  .nav-container a {
     padding: 10px 15px;
     text-transform: uppercase;
     text-align: center;

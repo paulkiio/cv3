@@ -5,18 +5,18 @@ import NavLink from "./NavLink"
 const Nav = () => {
   return (
     <header class="header">
-      <ul class="main-nav">
+      <ul class="nav-container">
         <NavLink to="/">
-          <span>Home</span>
+          Home
         </NavLink>
         <NavLink to="/resume">
-          <span>Resume</span>
+          Resume
         </NavLink>
         <NavLink to="/projects">
-          <span>Projects</span>
+          Projects
         </NavLink>
         <NavLink to="/">
-          <span>Contact</span>
+          Contact
         </NavLink>
       </ul>
     </header>
