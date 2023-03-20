@@ -45,6 +45,7 @@ a {
 a.active {
   background-color: var(--nav-link-background);
   color: var(--nav-link-color);
+  text-decoration: none;
 }
 
 /* ================================= 
