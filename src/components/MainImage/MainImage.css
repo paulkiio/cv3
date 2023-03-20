@@ -1,13 +1,25 @@
+/* todo need to get image rendering on mobile */
+
 #main-image-container {
   background-image: url("../../assets/images/pkw.png");
   background-position: center center;
   background-size: cover;
   width: 50%;
-  position: relative; }
+  position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #main-image-container {
+    height: 100vh;
+    display: block;
+  }
+}
 
 @media (min-width: 576px) {
   #main-image-container {
     height: 100vh;
     position: fixed;
     right: 0;
-    top: 0; } }
+    top: 0;
+  }
+}
