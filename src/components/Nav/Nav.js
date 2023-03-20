@@ -6,10 +6,18 @@ const Nav = () => {
   return (
     <header className="header">
       <ul className="nav-container">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/resume">Resume</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/resume">Resume</NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects">Projects</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
+        </li>
       </ul>
     </header>
   )
