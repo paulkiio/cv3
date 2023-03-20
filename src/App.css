@@ -1,5 +1,2 @@
-@import './_variables.css';
-
-.App {
-  margin: 0;
-}
+@import "./_variables.css";
+@import "./normailize.css"; 
