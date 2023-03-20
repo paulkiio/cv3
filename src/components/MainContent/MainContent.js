@@ -1,7 +1,6 @@
 import React from "react"
 import "./MainContent.css"
 import routes from "../../Routes"
-// import { Col } from "reactstrap"
 import { Route } from "react-router-dom"
 import Nav from "../Nav/Nav"
 

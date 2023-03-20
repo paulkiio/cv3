@@ -1,7 +1,5 @@
 import React from 'react';
-// import { Col } from 'reactstrap';
 import './Project.css';
-// import { MdHome } from 'react-icons/md';
 import rsp from '../../../assets/images/rsp.png';
 import rfw from '../../../assets/images/rfw.png';
 import skypoint from '../../../assets/images/skypoint.png';
