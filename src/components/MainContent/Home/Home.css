@@ -1,5 +1,4 @@
-
-@import '../../../_variables.css';
+@import "../../../_variables.css";
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -7,26 +6,37 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #b3b3b3;
-  background: #fff; }
+  background: #fff;
+}
 
 h4 a {
   font-size: 1.4rem;
-  color: #000; }
-
-h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .social-links a {
   color: var(--theme-color);
-  text-decoration: none; }
+  text-decoration: none;
+  padding-right: 10px
+}
 
 .media span {
-  color: var(--theme-color); }
-
+  color: var(--theme-color);
+}
 
 .home-container {
   margin: 1rem;

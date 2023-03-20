@@ -54,13 +54,21 @@ a.active {
 @media (min-width: 320px) and (max-width: 480px) {
   .header {
     /* border: purple 2px dotted; */
+    display: flex;
     width: 100%;
   }
-
+  
   .nav-container {
     width: 100%;
+    justify-content: space-between;
     margin: 0;
     /* border: green 2px dotted; */
+  }
+
+  .nav-container a {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
   }
 }
 
