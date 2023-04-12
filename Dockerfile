@@ -1,29 +1,20 @@
 # 1. For build React app
-FROM node:lts AS development
-
+FROM node:16-alpine
 # Set working directory
 WORKDIR /app
-
-# 
+# Install yarn
+RUN npm install yarn
+# Copy package.json
 COPY package.json /app/package.json
-
-#
+# Copy app
 COPY . /app
-
-ENV CI=true
-ENV PORT=3000
-ENV NODE_OPTIONS="--max-old-space-size=4096"
-
-FROM development AS build
-
-RUN npm run build
-
+# Install dependancies
+RUN yarn
+RUN npm yarn build
 # Start app
-CMD [ "npm", "start" ]
-
-# 2. For Nginx setup
+CMD [ "yarn", "run" "start" ]
+# For Nginx setup
 FROM nginx:alpine
-
 # Copy config nginx
 COPY --from=build /app/.nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
