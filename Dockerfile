@@ -9,8 +9,9 @@ COPY package.json /app/package.json
 # Copy app
 COPY . /app
 # Install dependancies
-RUN yarn
-RUN npm yarn build
+RUN yarn install
+# Build app
+RUN yarn build
 # Start app
 CMD [ "yarn", "run" "start" ]
 # For Nginx setup
