@@ -11,4 +11,4 @@ COPY . /app
 # Install dependancies
 RUN yarn install
 # Start app
-CMD [ "yarn", "run" "start" ]
+CMD [ "yarn", "dev" ]
