@@ -5,10 +5,12 @@ WORKDIR /app
 # Install yarn
 RUN npm install yarn
 # Copy package.json
-COPY package.json /app/package.json
+COPY package*.json ./
 # Copy app
-COPY . /app
+COPY . ./
 # Install dependancies
 RUN yarn install
+# EXPOSE port
+EXPOSE 80
 # Start app
 CMD [ "yarn", "dev" ]
