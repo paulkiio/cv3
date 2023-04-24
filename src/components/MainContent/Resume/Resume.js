@@ -14,14 +14,7 @@ const Resume = () => {
             <h3>Mobile Developer, Boost Education</h3>
             <p className="date">Aug 2021 - May 2022</p>
             <p>
-              &bull; Assist in development of new features including two major
-              launches
-              <br />
-              &bull; Fix and deploy outstanding bugs
-              <br />
-              &bull; Provisioned new customers in AWS
-              <br />
-              &bull; Upgraded front end state management library
+              Assisted in development of 3 new features and facilitated 2 major launches launches for both Android & IOS platforms. Fixed numerous UI and backend bugs. Provisioned new customers in AWS utelizing services such as Terrafrom, Cloudfront, EC2, Route53 and VPC. Configured analytics integration with Ingromet & google sheets. Worked through major upgrade MobX, the front-end state management library.
             </p>
           </li>
           {/* <li>
@@ -39,17 +32,8 @@ const Resume = () => {
             <h3>Implementation Engineer, Wunderkind (SHQ)</h3>
             <p className="date">Dec 2017 - Oct 2019 & Jan 2021 - Aug 2021</p>
             <p>
-              &bull; Own the process of scoping the client’s website to
-              understand the structure and availability of shopper behavioral
-              data (e.g. browsing products/categories, carting and purchasing
-              products).
-              <br />
-              &bull; Spearhead and drive meetings and calls with the client to
-              discuss technical aspects of implementation.
-              <br />
-              &bull; Write performant Javascript programs that uses our API to
-              collect shopper behavioral data on client websites.
-              <br />
+              Owned the process of scoping client’s website to understand the structure and availability of shopper behavioral data (e.g. browsing products/categories, carting and purchasing products).
+              Spearheaded meetings to discuss technical aspects of implementation.
             </p>
           </li>
           <li>
