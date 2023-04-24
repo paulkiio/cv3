@@ -11,6 +11,6 @@ COPY . ./
 # Install dependancies
 RUN yarn install
 # EXPOSE port
-EXPOSE 80
+EXPOSE 3000
 # Start app
 CMD [ "yarn", "dev" ]
