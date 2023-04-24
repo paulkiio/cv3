@@ -1,4 +1,4 @@
-# 1. For build React app
+# For build React app
 FROM node:16-alpine
 # Set working directory
 WORKDIR /app
@@ -14,6 +14,8 @@ RUN yarn install
 RUN yarn build
 # Start app
 CMD [ "yarn", "run" "start" ]
+# Expose port
+EXPOSE 3000
 # For Nginx setup
 FROM nginx:alpine
 # Copy config nginx
