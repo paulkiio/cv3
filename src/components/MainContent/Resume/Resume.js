@@ -65,10 +65,7 @@ const Resume = () => {
             <h3>Web Developer, Red Tettemer O'Connell</h3>
             <p className="date">Mar 2017 - Jun 2017</p>
             <p>
-              Configured AWS on a WordPress legacy site by integrating required
-              plugins so that images would be stored in S3. Developed zoom
-              capabilities supporting both desktop and mobile utilizing Ruby,
-              jQuery, JavaScript, and SASS.
+              Configured an AWS environment for a legacy WordPress site by integrating the necessary plugins to store images in the S3 cloud storage. I also developed the capability for users to zoom in on images from both desktop and mobile devices, using programming languages such as Ruby, jQuery, JavaScript, and SASS.
             </p>
           </li>
           <li>
