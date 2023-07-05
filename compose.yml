@@ -1,0 +1,10 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: .
+    container_name: cv3
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/app/src
