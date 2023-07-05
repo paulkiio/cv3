@@ -13,11 +13,11 @@ COPY . /app
 # Install dependancies
 RUN npm install
 
-# Build app
-RUN npm build
-
-# Start app
-CMD ["npm", "preview"]
+# # Build app
+# RUN npm run build
 
 # Expose port
 EXPOSE 3000
+
+# Start app
+CMD ["npm", "run", "dev"]
