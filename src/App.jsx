@@ -1,36 +1,153 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import me from './assets/images/pkw.png'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+import Me from './assets/images/pkw.png'
+import GitHubLogo from './assets/github.svg'
+import GitLabLogo from './assets/gitlab.svg'
+import LinkedInLogo from './assets/linkedin.svg'
+import Instagram from './assets/instagram.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+  const year = new Date().getFullYear()
 
   return (
-    <>
-      <a href="#">
-        <img src={me} className="logo react" alt="React logo" />
-      </a>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app-container">
+
+      <div className="header-buttons-container">
+        <div className="socials">
+          <a href="https://www.linkedin.com/in/paulwathome" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedInLogo} height={20} width={20} />
+          </a>
+          <a href="https://gitlab.com/pwathome" target="_blank" rel="noopener noreferrer">
+            <img src={GitLabLogo} height={20} width={20} />
+          </a>
+          <a href="https://github.com/pwathome" target="_blank" rel="noopener noreferrer">
+            <img src={GitHubLogo} height={20} width={20} />
+          </a>
+          <a href="https://instagram.com/kiio_labs" rel="noopener noreferrer" target="_blank">
+            <img src={Instagram} height={20} width={20} />
+          </a>
+        </div>
+
+        <div className="dark-toggle">
+          <img src={Me} height={30} width={30} />
+        </div>
       </div>
-      <h1>Working on the Vite + React version of the site,</h1>
-      <h2>Check back for upates soon...</h2>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Last updated {count} days ago...
-        </button>
+
+      <div className="heading">
+        <h1>Paul Wathome</h1>
+        <div className="links-container">
+          <span className="link">&#8599;blog.</span>
+          <span className="link">&#8599;inspiration.</span>
+          <a href="mailto:pkwdigital@gmail.com">
+            <span className="link">&#8599;contact.</span>
+          </a>
+        </div>
+        <p>
+          A space for my experiences, thoughts, projects & hobbies.
+        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <div className="about">
+        <h2>about.</h2>
+        <div className="about-section-container">
+          <div className="section">
+            <h3>experience</h3>
+
+            <div className="section-body">
+              <h4>Freelance Developer</h4>
+              <span>2022 - Current</span><br />
+              <i><span>Freelance</span></i>
+            </div>
+
+            <div className="section-body">
+              <h4>Full Stack Developer</h4>
+              <span>2022 - 2023</span><br />
+              <i><span>Boost Education</span></i>
+            </div>
+
+            <div className="section-body">
+              <h4>Implementation Engineer</h4>
+              <span>2019 - 2021</span><br />
+              <i><span>Wunderkind</span></i>
+            </div>
+          </div>
+
+          <div className="section">
+            <h3>languages & frameworks</h3>
+
+            <h4><i>Languages</i></h4>
+            <span>JavaScript</span><br />
+            <span>Python</span><br />
+            <span>Ruby</span>
+
+            <h4><i>Frameworks</i></h4>
+            <span>Django</span><br />
+            <span>ReactJS</span><br />
+            <span>React Native</span><br />
+            <span>Ruby on Rails</span><br />
+          </div>
+
+          <div className="section">
+            <h3>skills & tools</h3>
+
+            <span>MySQL</span><br />
+            <span>MongoDB</span><br />
+            <span>PostgresSQL</span><br /><br />
+
+            <span>Linux</span><br />
+            <span>Docker</span><br />
+            <span>Caprover</span><br />
+            <span>VSCode | Vim</span><br />
+            <span>Gitlab | Github</span><br />
+            <span>Linode | AWS | GCP</span><br /><br />
+
+            <span>Figma</span><br />
+            <span>Markdown</span><br />
+            <span>HTML5 | CSS3</span><br />
+
+          </div>
+
+          <div className="section project-section">
+            <h3>some projects</h3>
+
+            <input type="checkbox" id="title1" />
+            <label for="title1">EK</label>
+
+            <div className="content">
+              <p>Progressive web app to share music.</p>
+              <a href="https://gitlab.com/pwathome/djek" target="_blank" rel="noopener noreferrer">&#8599; code</a><br />
+              <a href="https://encryptedkenyan.com/" target="_blank" rel="noopener noreferrer">&#8599; live site</a>
+            </div>
+
+            <input type="checkbox" id="title2" />
+            <label for="title2">RFW</label>
+
+            <div className="content">
+              <p>Static informational site with contact form.</p>
+              <a href="https://gitlab.com/pwathome/rfw" target="_blank" rel="noopener noreferrer">&#8599; code</a><br />
+              <a href="https://rapefreeworld.com/" target="_blank" rel="noopener noreferrer">&#8599; live site</a>
+            </div>
+
+            <input type="checkbox" id="title3" />
+            <label for="title3">Foleni</label>
+
+            <div className="content">
+              <p>Barber shop managment solution.</p>
+              <a href="https://gitlab.com/foleni-group/foleni-mobile" target="_blank" rel="noopener noreferrer">&#8599; code</a><br />
+              {/* <a href="https://foleni.io" target="_blank" rel="noopener noreferrer">&#8599; live site</a> */}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer">
+        <p className="footer-text">
+          &#9400; {year}, Paul K Wathome
+        </p>
+        <small>Site is under construction so please excuse any typos or visual issues...Thank you :)</small>
+      </div>
+    </div>
   )
 }
 
