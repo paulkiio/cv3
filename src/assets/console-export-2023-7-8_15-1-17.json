@@ -1,0 +1,491 @@
+quotes = document.querySelectorAll(".content-item.quote-item")
+// console.log(quotes)
+count = 0
+quote = quotes.forEach(e => {
+  console.log(…
+Object { q: "”Maya Angelou\n\t\n\n\t!", a: "“I've learned that you shouldn't go through life with a catcher's mitt on both hands; you need to be able to throw something back.”Maya Angelou\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”William Faulkner\n\t\n\n\t!", a: "“Don’t bother to be better than others. Try to be better than yourself.”William Faulkner\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anonymous\n\t\n\n\t!", a: "“Most people quit because they look how far they have to go, not how far they have come.”Anonymous\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“Absorb what is useful. Discard what is not. Add what is uniquely your own.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Tolkien\n\t\n\n\t!", a: "“It's a job that's never started that takes the longest to finish.”J.R.R. Tolkien\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Schuller\n\t\n\n\t!", a: "“Let your hopes, not your hurts, shape your future.”Robert H. Schuller\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Oprah Winfrey\n\t\n\n\t!", a: "“Follow your instincts. That's where true wisdom manifests itself.”Oprah Winfrey\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Albert Einstein\n\t\n\n\t!", a: "“Creativity is contagious, so pass it on.”Albert Einstein\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Buddha\n\t\n\n\t!", a: "“Your worst enemy cannot harm you as much as your own unguarded thoughts.”Buddha\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Harriet Braiker\n\t\n\n\t!", a: "“Striving for excellence motivates you; striving for perfection is demoralizing.”Harriet Braiker\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Drake\n\t\n\n\t!", a: "“Never let success get to your head, and never let failure get to your heart.”Drake\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Sir Ken Robinson\n\t\n\n\t!", a: "“Children are wonderfully confident in their own imaginations. Most of us lose this confidence as we grow up.”Sir Ken Robinson\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Yoda\n\t\n\n\t!", a: "“Do or do not, there is no try.”Yoda\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Marvin Gaye\n\t\n\n\t!", a: "“If you cannot find peace within yourself, you will never find it anywhere else.”Marvin Gaye\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Theodore Isaac Rubin\n\t\n\n\t!", a: "“Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom.”Theodore Isaac Rubin\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“There are seven days in the week and someday isn't one of them.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Will Durant\n\t\n\n\t!", a: "“We are what we repeatedly do. Excellence then, is not an act, but a habit.”Will Durant\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“Adapt what is useful, reject what is useless, and add what is specifically your own.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Parker Lewis\n\t\n\n\t!", a: "“Be weird. Your strangeness is your magic.”Parker Lewis\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“A goal is not always meant to be reached, it often serves simply as something to aim at.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: ` If you don't try, you'll never know!”Merlin,
+		"Sword in the Stone"\n\t\n\n\t!`, a: `“It's up to you how far you go. If you don't try, you'll never know!”Merlin,
+		"Sword in the Stone"\n\t\n\n\t!`
+	}
+debugger eval code: 5: 11
+Object { q: "”Galileo Galilei\n\t\n\n\t!", a: "“We cannot teach people anything. We can only help them discover it within themselves.”Galileo Galilei\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“It's not the daily increase but daily decrease. Hack away at the unessential.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Lori Deschene\n\t\n\n\t!", a: "“Beating yourself up for your flaws and mistakes won’t make you perfect, and you don’t have to be. Learn, forgive yourself, and remember: We all struggle; it’s just part of being human.”Lori Deschene\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Sadhguru\n\t\n\n\t!", a: "“Whatever your goal in life, unless you develop a great urgency, what could be near will be far away.”Sadhguru\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Seth Godin\n\t\n\n\t!", a: "“Soon is not as good as now.”Seth Godin\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Zig Ziglar\n\t\n\n\t!", a: "“Remember that failure is an event, not a person.”Zig Ziglar\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Jim Rohn\n\t\n\n\t!", a: "“Success is something you attract by the person you become.”Jim Rohn\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Eleanor Roosevelt\n\t\n\n\t!", a: "“People grow through experience if they meet life honestly and courageously. This is how character is built.”Eleanor Roosevelt\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Mary Anne Radmacher\n\t\n\n\t!", a: "“There is no small act of kindness. Every compassionate act makes large the world.”Mary Anne Radmacher\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Steve Jobs\n\t\n\n\t!", a: "“Don't let the noise of others' opinions drown out your own inner voice. Have the courage to follow your own heart and intuition.”Steve Jobs\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“The greatest project you'll ever work on is you.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anatole France\n\t\n\n\t!", a: "“To accomplish great things, we must not only act, but also dream, not only plan, but also believe.”Anatole France\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Roy Goodman\n\t\n\n\t!", a: "“Happiness is a way of travel. Not a destination.”Roy Goodman\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”William James\n\t\n\n\t!", a: "“It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.”William James\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Aristotle\n\t\n\n\t!", a: "“Pleasure in the job puts perfection in the work.”Aristotle\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Marilyn Monroe\n\t\n\n\t!", a: "“Sometimes good things fall apart so better things can fall together.”Marilyn Monroe\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Leonardo da Vinci\n\t\n\n\t!", a: "“Simplicity is the ultimate sophistication.”Leonardo da Vinci\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Elizabeth Barrett Browning\n\t\n\n\t!", a: "“Light tomorrow with today.”Elizabeth Barrett Browning\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Seuss\n\t\n\n\t!", a: "“The more that you read, the more things you will know. The more that you learn, the more places you'll go.”Dr. Seuss\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Winston Churchill\n\t\n\n\t!", a: "“Success is the ability to go from failure to failure without losing your enthusiasm.”Winston Churchill\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“Empty your cup so that it may be filled; become devoid to gain totality.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Oscar Wilde\n\t\n\n\t!", a: "“Experience is simply the name we give our mistakes.”Oscar Wilde\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Chinese proverb\n\t\n\n\t!", a: "“If you want to know your past look into your present conditions. If you want to know your future look into your present actions.”Chinese proverb\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Jean Luc Picard\n\t\n\n\t!", a: "“It is possible to commit no mistakes and still lose. That is not a weakness; that is life.”Jean Luc Picard\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Henry David Thoreau\n\t\n\n\t!", a: "“This world is but canvas to our imaginations.”Henry David Thoreau\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Henry Van Dyke\n\t\n\n\t!", a: "“Use the talents you possess, for the woods would be very silent if no birds sang except the best.”Henry Van Dyke\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Michael Jordan\n\t\n\n\t!", a: "“You have to expect things of yourself before you can do them.”Michael Jordan\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Newton\n\t\n\n\t!", a: "“Tact is the art of making a point without making an enemy.”Howard W. Newton\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Robin Sharma\n\t\n\n\t!", a: "“The bigger the dream, the more important the team.”Robin Sharma\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“If you want to go fast, go alone. If you want to go far, bring others along.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Hardships often prepare ordinary people for an extraordinary destiny.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Dolly Parton\n\t\n\n\t!", a: "“If you don't like the road you're walking, start paving another one.”Dolly Parton\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Robert Brault\n\t\n\n\t!", a: "“Enjoy the little things, for one day you may look back and realize they were the big things.”Robert Brault\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”John Glenn\n\t\n\n\t!", a: "“We are more fulfilled when we are involved in something bigger than ourselves.”John Glenn\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "“If you change nothing, nothing will change”Unknown\n\t\n\n\t!", a: "“If you change nothing, nothing will change”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Helen Mirren\n\t\n\n\t!", a: "“Listen to your instinct, grab the opportunity when it presents itself and then give it your all.”Helen Mirren\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Bennett\n\t\n\n\t!", a: "“Believe in your infinite potential. Your only limitations are those you set upon yourself.”Roy T. Bennett\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Michelle Obama\n\t\n\n\t!", a: "“Success isn’t about how your life looks to others. It’s about how it feels to you.”Michelle Obama\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Do not fear the winds of adversity. Remember, a kite rises against the wind rather than with it.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anonymous\n\t\n\n\t!", a: "“Wanting to be someone else is a waste of who you are.”Anonymous\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Chinese Proverb\n\t\n\n\t!", a: "“Learning is a weightless treasure you can always carry easily.”Chinese Proverb\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Lao Tzu\n\t\n\n\t!", a: "“Care about what other people think and you will always be their prisoner.”Lao Tzu\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Earl Nightingale\n\t\n\n\t!", a: "“Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.”Earl Nightingale\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Speak in such a way that others love to listen to you. Listen in such a way that others love to speak to you.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Earl Nightingale\n\t\n\n\t!", a: "“Learn to enjoy every minute of your life. Be happy now. Don't wait for something outside of yourself to make you happy in the future.”Earl Nightingale\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Henry David Thoreau\n\t\n\n\t!", a: "“Never look back unless you are planning to go that way.”Henry David Thoreau\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Arianna Huffington\n\t\n\n\t!", a: "“Do what you dream of doing even while you're afraid.”Arianna Huffington\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”William Arthur Ward\n\t\n\n\t!", a: "“When we seek to discover the best in others, we somehow bring out the best in ourselves.”William Arthur Ward\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“If they can do it, so can you.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Carl Jung\n\t\n\n\t!", a: "“The world will ask you who you are, and if you do not know, the world will tell you.”Carl Jung\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Robin Sharma\n\t\n\n\t!", a: "“Bravery is the solution to regret.”Robin Sharma\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”George Lucas\n\t\n\n\t!", a: "“You can’t do it unless you imagine it.”George Lucas\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Roald Dahl\n\t\n\n\t!", a: "“There are a whole lot of things in this world of ours you haven't even started wondering about yet.”Roald Dahl\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Glasow\n\t\n\n\t!", a: "“Live in the present and make it so beautiful that it’s worth remembering.”Arnold H. Glasow\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Andrew Carnegie\n\t\n\n\t!", a: "“If you want to be happy, set a goal that commands your thoughts, liberates your energy, and inspires your hopes.”Andrew Carnegie\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Seth Godin\n\t\n\n\t!", a: "“Instead of wondering when your next vacation is, maybe you should set up a life you don't need to escape from.”Seth Godin\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Seneca\n\t\n\n\t!", a: "“Don’t stumble over something behind you.”Seneca\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anonymous\n\t\n\n\t!", a: "“The past is done. The future has plenty of room for change.”Anonymous\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”James Clear\n\t\n\n\t!", a: "“Focus is the art of knowing what to ignore.”James Clear\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Ron Tite\n\t\n\n\t!", a: "“Be weird, be transparent, be authentic, be yourself.”Ron Tite\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Henry David Thoreau\n\t\n\n\t!", a: "“What you get by achieving your goals is not as important as what you become by achieving your goals.”Henry David Thoreau\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anna Quindlen\n\t\n\n\t!", a: "“The thing that is really hard, and really amazing, is giving up on being perfect and beginning the work of becoming yourself.”Anna Quindlen\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Mary Schmich\n\t\n\n\t!", a: "“Do one thing every day that scares you.”Mary Schmich\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”David Viscott\n\t\n\n\t!", a: "“The meaning of life is to find your gift. The purpose of life is to give it away.”David Viscott\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Billy Bowerman\n\t\n\n\t!", a: "“Victory is in having done your best. If you’ve done your best, you’ve won.”Billy Bowerman\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "“Change is the end result of all true learning”Leo Buscaglia\n\t\n\n\t!", a: "“Change is the end result of all true learning”Leo Buscaglia\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Go ahead, let them judge you.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " D'Angelo\n\t\n\n\t!", a: "“Wherever you go, no matter what the weather, always bring your own sunshine.”Anthony J. D'Angelo\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“The only person who needs to believe in you is you.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Robert Kiyosaki\n\t\n\n\t!", a: "“Inside of every problem lies an opportunity.”Robert Kiyosaki\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Alan Turing\n\t\n\n\t!", a: "“Those who can imagine anything can create the impossible.”Alan Turing\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Maya Angelou\n\t\n\n\t!", a: "“Do the best you can until you know better. Then when you know better, do better.”Maya Angelou\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Stephen King\n\t\n\n\t!", a: "“You can, you should, and if you’re brave enough to start, you will.”Stephen King\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Dean Graziosi\n\t\n\n\t!", a: "“If you tell yourself you can't, you won't.”Dean Graziosi\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anonymous\n\t\n\n\t!", a: "“Everything is difficult until you know how to do it.”Anonymous\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“You never know how strong you are until being strong is the only choice you have.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”James Joyce\n\t\n\n\t!", a: "“Mistakes are the portals of discovery.”James Joyce\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Ralph Waldo Emerson\n\t\n\n\t!", a: "“Make the most of yourself, for that is all there is of you.”Ralph Waldo Emerson\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Matsuo Basho\n\t\n\n\t!", a: "“‎Do not seek to follow in the footsteps of others, instead, seek what they sought.”Matsuo Basho\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Millard Fuller\n\t\n\n\t!", a: "“It is easier to act yourself into a new way of thinking, than it is to think yourself into a new way of acting.”Millard Fuller\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“The most courageous act is still to think for yourself. Aloud.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Rumi\n\t\n\n\t!", a: "“It’s your road, and yours alone. Others may walk it with you, but no one can walk it for you.”Rumi\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Seneca\n\t\n\n\t!", a: "“While we are postponing, life speeds by.”Seneca\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Winston Churchill\n\t\n\n\t!", a: "“A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.”Winston Churchill\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Princess Diana\n\t\n\n\t!", a: "“Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.”Princess Diana\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Jack Kornfield\n\t\n\n\t!", a: "“No matter how hard the past, you can always begin again.”Jack Kornfield\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Thich Nhat Hanh\n\t\n\n\t!", a: "“To be beautiful means to be yourself. You don't need to be accepted by others. You need to be yourself.”Thich Nhat Hanh\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Chinese Proverb\n\t\n\n\t!", a: "“The best time to plant a tree was 20 years ago. The second best time is now.”Chinese Proverb\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“On your journey through life, make sure your biography has at least one extraordinary chapter.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Norwegian proverb\n\t\n\n\t!", a: "“A hero is one who knows how to hang on for one minute longer.”Norwegian proverb\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Aaron Lauritsen\n\t\n\n\t!", a: "“The struggles you endure today will be the ‘good old days’ you’ll laugh about tomorrow.”Aaron Lauritsen\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Seneca\n\t\n\n\t!", a: "“As long as you live, keep learning how to live.”Seneca\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Greg McKeown\n\t\n\n\t!", a: "“If you don't prioritize your life, someone else will.”Greg McKeown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“It's not who you think you are that holds you back it's who you think you're not.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”John Wooden\n\t\n\n\t!", a: "“Make each day your masterpiece.”John Wooden\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Larry Page\n\t\n\n\t!", a: "“Good ideas are always crazy until they’re not.”Larry Page\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Les Brown\n\t\n\n\t!", a: "“Your goals are the road maps that guide you and show you what is possible for your life.”Les Brown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Malcolm Forbes\n\t\n\n\t!", a: "“The biggest mistake people make in life is not trying to make a living at doing what they most enjoy.”Malcolm Forbes\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Stop being afraid of what could go wrong and start being positive about what could go right.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Maxwell Maltz\n\t\n\n\t!", a: "“Low self esteem is like driving through life with your handbrake on.”Maxwell Maltz\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Tim Fargo\n\t\n\n\t!", a: "“Don't envy what people have, emulate what they did to have it.”Tim Fargo\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“If you spend too much time thinking about a thing, you'll never get it done.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Jack Canfield\n\t\n\n\t!", a: "“If it ain't fun, don't do it.”Jack Canfield\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“It's not about where your starting point is, but your end goal and the journey that will get you there.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Renkl\n\t\n\n\t!", a: "“You live longer once you realize that any time spent being unhappy is wasted.”Ruth E. Renkl\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Charles Swindoll\n\t\n\n\t!", a: "“We are all faced with a series of great opportunities brilliantly disguised as impossible situations.”Charles Swindoll\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Satsuki Shibuya\n\t\n\n\t!", a: "“By doing what you love you inspire and awaken the hearts of others.”Satsuki Shibuya\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Confucius\n\t\n\n\t!", a: "“One who knows all the answers has not been asked all the questions.”Confucius\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Abraham Maslow\n\t\n\n\t!", a: "“In any given moment we have two options: to step forward into growth or back into safety.”Abraham Maslow\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Lucille Ball\n\t\n\n\t!", a: "“It's a helluva start, being able to recognize what makes you happy.”Lucille Ball\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Amy Poehler\n\t\n\n\t!", a: "“There’s power in looking silly and not caring that you do.”Amy Poehler\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Marie Curie\n\t\n\n\t!", a: "“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”Marie Curie\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Grant Cardone\n\t\n\n\t!", a: "“Courage isn't the absence of fear, but an urgent impulse to do something despite fear.”Grant Cardone\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Marie Forleo\n\t\n\n\t!", a: "“Not having the best situation, but seeing the best in your situation is the key to happiness.”Marie Forleo\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”George Santayana\n\t\n\n\t!", a: "“The wisest mind has something yet to learn.”George Santayana\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“Always be yourself, express yourself, have faith in yourself. Do not go out and look for a successful personality and duplicate it.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Anaïs Nin\n\t\n\n\t!", a: "“Life shrinks or expands in proportion to one's courage.”Anaïs Nin\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Albert Einstein\n\t\n\n\t!", a: "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”Albert Einstein\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Jon Acuff\n\t\n\n\t!", a: "“Don't compare your beginning to someone else's middle.”Jon Acuff\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Henry David Thoreau\n\t\n\n\t!", a: "“It’s not what you look at that matters, it’s what you see.”Henry David Thoreau\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Jon Acuff\n\t\n\n\t!", a: "“Don't compare your beginning to someone else's middle.”Jon Acuff\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Michael Jordan\n\t\n\n\t!", a: "“Don't be afraid to fail. Be afraid not to try.”Michael Jordan\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Marcus Aurelius\n\t\n\n\t!", a: "“You have power over your mind — not outside events. Realize this, and you will find strength.”Marcus Aurelius\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Neale Donald Walsch\n\t\n\n\t!", a: "“Life begins at the end of your comfort zone.”Neale Donald Walsch\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Ralph Waldo Emerson\n\t\n\n\t!", a: "“Our greatest glory is not in never failing, but in rising up every time we fail.”Ralph Waldo Emerson\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Carlos Castaneda\n\t\n\n\t!", a: "“We either make ourselves miserable, or we make ourselves strong. The amount of work is the same.”Carlos Castaneda\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Michelle Obama\n\t\n\n\t!", a: "“Success isn't about how your life looks to others. It's about how it feels to you.”Michelle Obama\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Bruce Lee\n\t\n\n\t!", a: "“Showing off is the fool's idea of glory.”Bruce Lee\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Don't let the success of others discourage you. Let it inspire you.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Mahatma Gandhi\n\t\n\n\t!", a: "“Live as if you were to die tomorrow. Learn as if you were to live forever.”Mahatma Gandhi\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Henry David Thoreau\n\t\n\n\t!", a: "“Go confidently in the direction of your dreams. Live the life you have imagined.”Henry David Thoreau\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Don't let small minds convince you that your dreams are too big.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Marie Curie\n\t\n\n\t!", a: "“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”Marie Curie\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Unknown\n\t\n\n\t!", a: "“Stop being afraid of what could go wrong and start being positive about what could go right.”Unknown\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Seuss\n\t\n\n\t!", a: "“Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.”Dr. Seuss\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Maxwell\n\t\n\n\t!", a: "“The secret to your success is found in your daily routine.”John C. Maxwell\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: " Milne\n\t\n\n\t!", a: "“Always remember you are braver than you believe, stronger than you seem, and smarter than you think”A. A. Milne\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Whole Earth Epilog, 1974\n\t\n\n\t!", a: "“Stay hungry; stay foolish.”Whole Earth Epilog, 1974\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Earl Nightingale\n\t\n\n\t!", a: "“When you judge others, you do not define them; you define yourself.”Earl Nightingale\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+Object { q: "”Robert Louis Stevenson\n\t\n\n\t!", a: "“Make the most of the best and the least of the worst.”Robert Louis Stevenson\n\t\n\n\t!"
+	}
+debugger eval code: 5: 11
+undefined
