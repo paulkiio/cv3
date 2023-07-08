@@ -1,42 +1,52 @@
 #root {
-  max-width: 1280px;
+  display: block;
+  height: 100vh;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /* text-align: center; */
+  border: blue dotted 2px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.app-container {
+  border: 2px lightcoral dotted;
+  height: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.header-buttons-container {
+  /* border: red 2px dotted; */
+  display: inline-flex;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.socials img {
+  margin-right: 1rem;
 }
 
-.card {
-  padding: 2em;
+.header-buttons-container .socials {
+  border: purple dotted 5px;
+  width: 50%;
 }
 
-.read-the-docs {
-  color: #888;
+.header-buttons-container .dark-toggle {
+  width: 50%;
+  border: purple dotted 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.heading {
+  border: yellow 2px dotted;
+  /* width: 100%; */
+}
+
+.about {
+  border: green dotted 2px;
+  /* width: 100%; */
+}
+
+.footer {
+  border: orange 2px dotted;
 }
