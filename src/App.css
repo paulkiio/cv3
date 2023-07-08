@@ -3,7 +3,8 @@
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
+  overflow-x: hidden;
 }
 
 .app-container {

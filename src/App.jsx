@@ -33,7 +33,7 @@ function App() {
           <span className="link">&#8599;contact.</span>
         </div>
         <p>
-          I'm baby lo-fi celiac cliche poutine. Letterpress bodega boys flannel, direct trade artisan cupping vexillologist narwhal XOXO affogato YOLO intelligentsia cornhole. Synth succulents chicharrones kitsch keytar tbh, bespoke taiyaki raw denim poke bodega boys. Fit art party wayfarers church-key fingerstache occupy humblebrag pug succulents neutra paleo lyft literally flexitarian adaptogen.
+          A space for my experiences, thoughts, projects & hobbies.
         </p>
       </div>
 
@@ -91,8 +91,8 @@ function App() {
             <span>Linode | AWS | GCP</span><br /><br />
 
             <span>Figma</span><br />
-            <span>HTML5 | CSS3</span><br />
             <span>Markdown</span><br />
+            <span>HTML5 | CSS3</span><br />
 
           </div>
 
@@ -125,7 +125,7 @@ function App() {
 
       <div className="footer">
         <p className="footer-text">
-          Paul K Wathome 
+          &#9400; Paul K Wathome 
         </p>
       </div>
     </div>
