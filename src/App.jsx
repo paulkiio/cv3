@@ -96,16 +96,36 @@ function App() {
 
           </div>
 
-          <div className="section">
+          <div className="project-section">
             <h3>some projects</h3>
-            
+
+            <input type="checkbox" id="title1" />
+            <label for="title1">EK</label>
+
+            <div class="content">
+              <p>Progressive web app to share music.</p>
+            </div>
+
+            <input type="checkbox" id="title2" />
+            <label for="title2">RFW</label>
+
+            <div class="content">
+              <p>Static informational site with contact form.</p>
+            </div>
+
+            <input type="checkbox" id="title3" />
+            <label for="title3">Foleni</label>
+
+            <div class="content">
+              <p>Barber shop managment solution.</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="footer">
-        <p className="read-the-docs">
-          Click on the Vite and React logos to learn more
+        <p className="footer-text">
+          Paul K Wathome 
         </p>
       </div>
     </div>
