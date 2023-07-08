@@ -4,20 +4,20 @@
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  /* text-align: center; */
-  border: blue dotted 2px;
 }
 
 .app-container {
-  border: 2px lightcoral dotted;
   height: 100%;
 }
 
 
 .header-buttons-container {
-  /* border: red 2px dotted; */
   display: inline-flex;
   width: 100%;
+}
+
+.heading {
+  width: 50%;
 }
 
 .socials img {
@@ -25,28 +25,43 @@
 }
 
 .header-buttons-container .socials {
-  border: purple dotted 5px;
   width: 50%;
 }
 
 .header-buttons-container .dark-toggle {
   width: 50%;
-  border: purple dotted 5px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
 .heading {
-  border: yellow 2px dotted;
+  /* border: yellow 2px dotted; */
   /* width: 100%; */
+}
+
+.links-container .link {
+  margin-right: 3rem;
+  font-size: large;
+  font-weight: 600;
 }
 
 .about {
-  border: green dotted 2px;
+  /* border: green dotted 2px; */
   /* width: 100%; */
 }
 
+.about-section-container {
+  /* border: red dotted 4px; */
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.about-section-container .section {
+  margin-right: 1rem;
+}
+
 .footer {
-  border: orange 2px dotted;
+  /* border: orange 2px dotted; */
 }
