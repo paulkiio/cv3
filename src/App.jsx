@@ -1,27 +1,36 @@
 // import { useState } from 'react'
-// import me from './assets/images/pkw.png'
+import Me from './assets/images/pkw.png'
 import GitHubLogo from './assets/github.svg'
 import GitLabLogo from './assets/gitlab.svg'
 import LinkedInLogo from './assets/linkedin.svg'
 import Instagram from './assets/instagram.svg'
-import Moon from './assets/icomoon.svg'
 import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0)
+  const year = new Date().getFullYear()
+
   return (
     <div className="app-container">
 
       <div className="header-buttons-container">
         <div className="socials">
-          <img src={LinkedInLogo} height={20} width={20} />
-          <img src={GitLabLogo} height={20} width={20} />
-          <img src={GitHubLogo} height={20} width={20} />
-          <img src={Instagram} height={20} width={20} />
+          <a href="https://www.linkedin.com/in/paulwathome" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedInLogo} height={20} width={20} />
+          </a>
+          <a href="https://gitlab.com/pwathome" target="_blank" rel="noopener noreferrer">
+            <img src={GitLabLogo} height={20} width={20} />
+          </a>
+          <a href="https://github.com/pwathome" target="_blank" rel="noopener noreferrer">
+            <img src={GitHubLogo} height={20} width={20} />
+          </a>
+          <a href="https://instagram.com/kiio_labs" rel="noopener noreferrer" target="_blank">
+            <img src={Instagram} height={20} width={20} />
+          </a>
         </div>
 
         <div className="dark-toggle">
-          <img src={Moon} height={20} width={20} />
+          <img src={Me} height={30} width={30} />
         </div>
       </div>
 
@@ -30,7 +39,9 @@ function App() {
         <div className="links-container">
           <span className="link">&#8599;blog.</span>
           <span className="link">&#8599;inspiration.</span>
-          <span className="link">&#8599;contact.</span>
+          <a href="mailto:pkwdigital@gmail.com">
+            <span className="link">&#8599;contact.</span>
+          </a>
         </div>
         <p>
           A space for my experiences, thoughts, projects & hobbies.
@@ -64,15 +75,15 @@ function App() {
 
           <div className="section">
             <h3>languages & frameworks</h3>
-            
+
             <h4><i>Languages</i></h4>
             <span>JavaScript</span><br />
             <span>Python</span><br />
             <span>Ruby</span>
 
-            <h4><i>Frameworkds</i></h4>
-            <span>ReactJS</span><br />
+            <h4><i>Frameworks</i></h4>
             <span>Django</span><br />
+            <span>ReactJS</span><br />
             <span>React Native</span><br />
             <span>Ruby on Rails</span><br />
           </div>
@@ -83,9 +94,10 @@ function App() {
             <span>MySQL</span><br />
             <span>MongoDB</span><br />
             <span>PostgresSQL</span><br /><br />
-            
+
             <span>Linux</span><br />
             <span>Docker</span><br />
+            <span>Caprover</span><br />
             <span>VSCode | Vim</span><br />
             <span>Gitlab | Github</span><br />
             <span>Linode | AWS | GCP</span><br /><br />
@@ -96,28 +108,34 @@ function App() {
 
           </div>
 
-          <div className="project-section">
+          <div className="section project-section">
             <h3>some projects</h3>
 
             <input type="checkbox" id="title1" />
             <label for="title1">EK</label>
 
-            <div class="content">
+            <div className="content">
               <p>Progressive web app to share music.</p>
+              <a href="https://gitlab.com/pwathome/djek" target="_blank" rel="noopener noreferrer">&#8599; code</a><br />
+              <a href="https://encryptedkenyan.com/" target="_blank" rel="noopener noreferrer">&#8599; live site</a>
             </div>
 
             <input type="checkbox" id="title2" />
             <label for="title2">RFW</label>
 
-            <div class="content">
+            <div className="content">
               <p>Static informational site with contact form.</p>
+              <a href="https://gitlab.com/pwathome/rfw" target="_blank" rel="noopener noreferrer">&#8599; code</a><br />
+              <a href="https://rapefreeworld.com/" target="_blank" rel="noopener noreferrer">&#8599; live site</a>
             </div>
 
             <input type="checkbox" id="title3" />
             <label for="title3">Foleni</label>
 
-            <div class="content">
+            <div className="content">
               <p>Barber shop managment solution.</p>
+              <a href="https://gitlab.com/foleni-group/foleni-mobile" target="_blank" rel="noopener noreferrer">&#8599; code</a><br />
+              {/* <a href="https://foleni.io" target="_blank" rel="noopener noreferrer">&#8599; live site</a> */}
             </div>
           </div>
         </div>
@@ -125,8 +143,9 @@ function App() {
 
       <div className="footer">
         <p className="footer-text">
-          &#9400; Paul K Wathome 
+          &#9400; {year}, Paul K Wathome
         </p>
+        <small>Site is under construction so please excuse any typos or visual issues...Thank you :)</small>
       </div>
     </div>
   )
