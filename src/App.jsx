@@ -28,17 +28,14 @@ function App() {
 
       <div className="header-buttons-container">
         <div className="socials">
-          <a href="https://www.linkedin.com/in/paulwathome" target="_blank" rel="noopener noreferrer">
-            <img src={LinkedInLogo} height={20} width={20} />
-          </a>
           <a href="https://gitlab.com/pwathome" target="_blank" rel="noopener noreferrer">
             <img src={GitLabLogo} height={20} width={20} />
           </a>
+          <a href="https://www.linkedin.com/in/paulwathome" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedInLogo} height={20} width={20} />
+          </a>
           <a href="https://github.com/pwathome" target="_blank" rel="noopener noreferrer">
             <img src={GitHubLogo} height={20} width={20} />
-          </a>
-          <a href="https://instagram.com/kiio_labs" rel="noopener noreferrer" target="_blank">
-            <img src={Instagram} height={20} width={20} />
           </a>
         </div>
 
