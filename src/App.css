@@ -93,6 +93,10 @@ input:checked+label+.content {
   margin-top: 2rem;
 }
 
+.footer-section-container {
+  display: flex;
+}
+
 @media (min-width: 300px) and (max-width: 768px) {
   .app-container {
     height: 100%;
@@ -109,9 +113,5 @@ input:checked+label+.content {
   .about-section-container {
     display: flex;
     flex-direction: column;
-  }
-
-  .footer-section-container {
-    display: flex;
   }
 }
