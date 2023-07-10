@@ -10,6 +10,9 @@ export default defineConfig({
     },
     strictPort: true,
     host: true,
-    port: 5173
+    port: 5173,
+    hmr: {
+      overlay: false // https://vitejs.dev/config/server-options.html#server-hmr
+    }
   },
 })
