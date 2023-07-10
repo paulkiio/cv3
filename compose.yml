@@ -1,9 +1,9 @@
 version: "3"
 services:
-  cv3:
+  frontend:
     build:
       context: .
     ports:
-      - "80:80"
+      - "80:5173"
     volumes:
       - ./src:/app/src
