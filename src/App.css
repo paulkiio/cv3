@@ -110,4 +110,8 @@ input:checked+label+.content {
     display: flex;
     flex-direction: column;
   }
+
+  .footer-section-container {
+    display: flex;
+  }
 }
