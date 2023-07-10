@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Me from './assets/images/pkw.png'
 import GitHubLogo from './assets/github.svg'
 import GitLabLogo from './assets/gitlab.svg'
@@ -7,11 +7,22 @@ import Instagram from './assets/instagram.svg'
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [theme, setTheme] = useState('light')
+  const toggleTheme = () => {
+    console.log("theme changed")
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   const year = new Date().getFullYear()
-
+  
   return (
-    <div className="app-container">
+    <div className={`app-container ${theme}`}>
 
       <div className="header-buttons-container">
         <div className="socials">
@@ -29,7 +40,7 @@ function App() {
           </a>
         </div>
 
-        <div className="dark-toggle">
+        <div onClick={toggleTheme} className="dark-toggle">
           <img src={Me} height={30} width={30} />
         </div>
       </div>
@@ -44,7 +55,7 @@ function App() {
           </a>
         </div>
         <p>
-          A space for my experiences, thoughts, projects & hobbies.
+          A space htmlFor my experiences, thoughts, projects & hobbies.
         </p>
       </div>
 
@@ -112,7 +123,7 @@ function App() {
             <h3>some projects</h3>
 
             <input type="checkbox" id="title1" />
-            <label for="title1">EK</label>
+            <label htmlFor="title1">EK</label>
 
             <div className="content">
               <p>Progressive web app to share music.</p>
@@ -121,7 +132,7 @@ function App() {
             </div>
 
             <input type="checkbox" id="title2" />
-            <label for="title2">RFW</label>
+            <label htmlFor="title2">RFW</label>
 
             <div className="content">
               <p>Static informational site with contact form.</p>
@@ -130,7 +141,7 @@ function App() {
             </div>
 
             <input type="checkbox" id="title3" />
-            <label for="title3">Foleni</label>
+            <label htmlFor="title3">Foleni</label>
 
             <div className="content">
               <p>Barber shop managment solution.</p>
