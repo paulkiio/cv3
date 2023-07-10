@@ -1,6 +1,5 @@
 #root {
   display: block;
-  height: 100vh;
   width: 100%;
   margin: 1rem;
 }
@@ -89,7 +88,6 @@ input:checked+label+.content {
 
 .footer {
   margin-top: 2rem;
-  /* border: orange 2px dotted; */
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
