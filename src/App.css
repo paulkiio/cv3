@@ -4,6 +4,7 @@
 
 .app-container {
   padding: .5rem;
+  height: 100vh;
 }
 
 .header-buttons-container {
