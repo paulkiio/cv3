@@ -4,6 +4,8 @@ import GitHubLogo from './assets/github.svg'
 import GitLabLogo from './assets/gitlab.svg'
 import LinkedInLogo from './assets/linkedin.svg'
 import Instagram from './assets/instagram.svg'
+import Gmail from './assets/gmail.svg'
+import Twitter from './assets/twitter.svg'
 import './App.css'
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
     document.body.className = theme;
   }, [theme]);
   const year = new Date().getFullYear()
-  
+
   return (
     <div className={`app-container ${theme}`}>
 
@@ -49,7 +51,7 @@ function App() {
         <h1>Paul Wathome</h1>
         <div className="links-container">
           <span className="link">&#8599;blog.</span>
-          <span className="link">&#8599;inspiration.</span>
+          <span className="link">&#8599;hobbies.</span>
           <a href="mailto:pkwdigital@gmail.com">
             <span className="link">&#8599;contact.</span>
           </a>
@@ -92,8 +94,9 @@ function App() {
             <span>Python</span><br />
             <span>Ruby</span>
 
-            <h4><i>Frameworks</i></h4>
+            <h4><i>Frameworks & libraries</i></h4>
             <span>Django</span><br />
+            <span>Express</span><br />
             <span>ReactJS</span><br />
             <span>React Native</span><br />
             <span>Ruby on Rails</span><br />
@@ -110,7 +113,7 @@ function App() {
             <span>Docker</span><br />
             <span>Caprover</span><br />
             <span>VSCode | Vim</span><br />
-            <span>Gitlab | Github</span><br />
+            <span>Git | Gitlab | Github</span><br />
             <span>Linode | AWS | GCP</span><br /><br />
 
             <span>Figma</span><br />
@@ -160,11 +163,51 @@ function App() {
       </div>
 
       <div className="footer">
-        <p className="footer-text">
-          &#9400; {year}, Paul K Wathome
-        </p>
-        <small>Site is under construction so please excuse any typos or visual issues...Thank you :)</small>
+        <div className="footer-section-container">
+          <div className="section">
+            <div className="section-body">
+              <h4><i>general.</i></h4>
+              <span className="link">&#8599;blog.</span><br />
+              <span className="link">&#8599;hobbies.</span>
+            </div>
+          </div>
+
+          <div className="section">
+
+            <h4><i>contact.</i></h4>
+            <span>
+              <a href="https://www.linkedin.com/in/paulwathome" target="_blank" rel="noopener noreferrer">
+                <img src={LinkedInLogo} height={20} width={20} />&nbsp;
+              </a>
+              linkedin
+            </span><br />
+            <span>
+              <a href="mailto:pkwdigital@gmail.com">
+                <img src={Gmail} height={20} width={20} />&nbsp;
+              </a>
+              mail
+            </span><br />
+          </div>
+
+          <div className="section">
+            <h4><i>socials.</i></h4>
+            <span>
+              <a href="https://instagram.com/encryptedkenyan" rel="noopener noreferrer" target="_blank">
+                <img src={Instagram} height={20} width={20} />
+              </a>
+            </span><br />
+            <span>
+              <a href="https://twitter.com/encryptedkenyan" rel="noopener noreferrer" target="_blank">
+                <img src={Twitter} height={20} width={20} />
+              </a>
+            </span><br /><br />
+          </div>
+        </div>
       </div>
+      <p className="footer-text">
+        &#9400; {year}, Paul K Wathome
+      </p>
+      <small>Site is under construction so please excuse any typos or visual issues...Thank you :)</small>
     </div>
   )
 }
