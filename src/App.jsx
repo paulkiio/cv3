@@ -55,7 +55,7 @@ function App() {
           </a>
         </div>
         <p>
-          A space htmlFor my experiences, thoughts, projects & hobbies.
+          A space for my experiences, thoughts, projects & hobbies.
         </p>
       </div>
 

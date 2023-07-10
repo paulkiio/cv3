@@ -94,6 +94,10 @@ input:checked+label+.content {
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
+  .app-container {
+    height: 100%;
+  }
+
   .socials {
     margin-top: .5rem;
   }
