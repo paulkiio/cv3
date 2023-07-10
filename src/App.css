@@ -1,7 +1,9 @@
 #root {
-  display: block;
   width: 100%;
-  margin: 1rem;
+}
+
+.app-container {
+  padding: .5rem;
 }
 
 .header-buttons-container {
