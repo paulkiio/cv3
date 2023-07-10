@@ -62,8 +62,8 @@
   cursor: pointer;
   /* background: #6AAB95; */
   border-radius: 3px;
-  border-bottom: white 1px solid;
-  color: #FFF;
+  border-bottom: black 1px solid;
+  /* color: #FFF; */
   transition: ease .5s;
 }
 
