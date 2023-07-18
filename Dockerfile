@@ -1,23 +1,4 @@
-# For build React app
-FROM node:16-alpine
-
-# Set working directory
-WORKDIR /app
-
-# Copy package.json
-COPY package.json /app/package.json
-
-# Copy app
-COPY . /app
-
-# Install dependancies
-RUN npm install
-
-# # Build app
-# RUN npm run build
-
-# Expose port
-EXPOSE 5173
-
-# Start app
-CMD ["npm", "run", "dev"]
+FROM nginx:1.13.9-alpine
+COPY . /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
