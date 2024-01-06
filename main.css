@@ -1,6 +1,6 @@
 #root {
   width: 100%;
-}z
+}
 
 .app-container {
   padding: .5rem;
@@ -29,6 +29,7 @@
   /* border: #4E8774 3px dotted; */
   display: flex;
   justify-content: flex-end;
+  margin-right: .5rem;
 }
 
 .links-container .link {
@@ -107,7 +108,7 @@ input:checked+label+.content {
   }
 
   .heading {
-    width: 100%;
+    width: 95%;
   }
 
   .about-section-container {
