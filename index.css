@@ -38,6 +38,7 @@ body {
   place-items: start; */
   min-width: 320px;
   width: 100%;
+  font-size: large;
 }
 
 h1 {
