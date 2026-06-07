@@ -46,6 +46,8 @@ a:hover {
     color: var(--color-link-hover);
 }
 
+/*Class and ID*/
+
 .dark {
     background-color: #333;
     color: #fff;
@@ -54,4 +56,112 @@ a:hover {
 .light {
     background-color: #fff;
     color: #333;
+}
+
+.app-container {
+  padding: 1rem;
+}
+
+.header-buttons-container {
+  display: flex;
+  width: 100%;
+}
+
+.heading {
+  width: 50%;
+}
+
+.socials img {
+  margin-right: 1rem;
+}
+
+.header-buttons-container .socials {
+  width: 70%;
+}
+
+.header-buttons-container .dark-toggle {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: .5rem;
+}
+
+.links-container .link {
+  margin-right: 1rem;
+  font-size: large;
+  font-weight: 600;
+}
+
+.about-section-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.about-section-container .section {
+  margin-right: 1rem;
+}
+
+.section {
+  flex: 1;
+}
+
+.project-section input {
+  display: none;
+}
+
+.project-section label {
+  display: block;
+  padding: 8px 0;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  border-bottom: black 1px solid;
+  transition: ease .5s;
+}
+
+.project-section label:hover {
+  background: #4E8774;
+}
+
+.content {
+  padding: 10px 20px;
+  border: 1px solid #A7A7A7;
+  margin: 0 0 1px 0;
+  border-radius: 3px;
+}
+
+input+label+.content {
+  display: none;
+}
+
+input:checked+label+.content {
+  display: block;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+.footer-section-container {
+  display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .app-container {
+    height: 100%;
+  }
+
+  .socials {
+    margin-top: .5rem;
+  }
+
+  .heading {
+    width: 95%;
+  }
+
+  .about-section-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
