@@ -28,8 +28,7 @@ body {
     background-color: var(--color-background);
     color: var(--color-text);
     min-width: 320px;
-    width: 100%;
-    font-size: large;
+    font-size: x-large;
 }
 
 h1 {
@@ -40,6 +39,7 @@ h1 {
 a {
     font-weight: 500;
     color: var(--color-link);
+    text-decoration: none;
 }
 
 a:hover {
