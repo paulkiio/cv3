@@ -89,8 +89,7 @@ ul li {
   padding-bottom: 1rem;
 }
 
-
-footer ul{
+footer ul {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
@@ -117,6 +116,10 @@ footer ul{
   display: flex;
   justify-content: space-between;
   height: 100%;
+}
+
+.about-section-container h4 {
+  margin-top: 0;
 }
 
 .project-section input {
