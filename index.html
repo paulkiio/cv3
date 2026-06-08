@@ -7,14 +7,6 @@
     <meta name="description" content="Paul Wathome - Technology enthusiast and problem solver" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paul Wathome</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const darkToggle = document.querySelector('.dark-toggle');
-            darkToggle.addEventListener('click', function() {
-                document.body.classList.toggle('dark-mode');
-            });
-        });
-    </script>
 </head>
 
 <body data-theme="light">
@@ -154,6 +146,16 @@
                         <p>Personal site built using HTML5 + CSS3.</p>
                         <a href="https://gitlab.com/pwathome/cv3" target="_blank" rel="noopener noreferrer"><small>&#8599; </small>code</a>
                     </div>
+
+                    <input type="checkbox" id="title5" />
+                    <label for="title5">Parts Recognition App</label>
+
+                    <div class="content">
+                        <p>Prototype UI for a parts recognition application that runs in the browser.</p>
+                        <a href="https://gitlab.com/prs-v1/prs-v1" target="_blank" rel="noopener noreferrer"><small>&#8599; </small>code</a>
+                        <a href="https://prs-demo.kiiolabs.org/proto-0.html" target="_blank" rel="noopener noreferrer"><small>&#8599; </small>version 0</a>
+                        <a href="https://prs-demo.kiiolabs.org/proto-1.html" target="_blank" rel="noopener noreferrer"><small>&#8599; </small>version 1</a>
+                    </div>
                 </article>
             </div>
         </section>
@@ -186,6 +188,14 @@
         </footer>
     </main>
 
-    <small>Site is under construction so please excuse any typos or visual issues...Thank you 🤓.</small> 
+    <small>Site is under construction so please excuse any typos or visual issues...Thank you 🤓.</small>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkToggle = document.querySelector('.dark-toggle');
+            darkToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-mode');
+            });
+        });
+    </script>
 </body>
 </html>
