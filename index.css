@@ -42,11 +42,25 @@ ul {
     padding: 0;
 }
 
-body {
+body[data-theme="light"] {
     background-color: var(--color-background);
     color: var(--color-text);
     min-width: 320px;
     font-size: x-large;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body[data-theme="dark"] {
+    background-color: #333;
+    color: #fff;
+    min-width: 320px;
+    font-size: x-large;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
 }
 
 a {
