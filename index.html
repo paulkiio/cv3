@@ -7,6 +7,14 @@
     <meta name="description" content="Paul Wathome - Technology enthusiast and problem solver" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paul Wathome</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkToggle = document.querySelector('.dark-toggle');
+            darkToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark');
+            });
+        });
+    </script>
 </head>
 
 <body>
