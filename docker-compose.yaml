@@ -1,0 +1,8 @@
+services:
+  webserver:
+    build: .
+      # Context of the build is the current directory (.)
+    container_name: cv3_container
+    ports:
+      - "8801:80"  # Map host port 80 to container port 80
+    restart: unless-stopped  # Restart policy
