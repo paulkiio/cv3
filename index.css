@@ -1,6 +1,6 @@
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.1;
     font-weight: 400;
 
     color-scheme: light dark;
@@ -17,11 +17,8 @@
     --color-link-hover: #535bf2;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-background: #333;
-        --color-text: #fff;
-    }
+h2 {
+    margin: 0;
 }
 
 header nav ul {
@@ -33,7 +30,7 @@ section nav ul {
   display: flex;
 }
 
-li {
+nav li {
     padding-right: 0.5em;
 }
 
@@ -80,7 +77,7 @@ header {
 }
 
 article {
-    flex: 2;
+    flex: 1;
 }
 
 article dd {
@@ -123,7 +120,7 @@ footer ul {
 }
 
 .about-section-container h3 {
-    margin-top: .3rem;
+    margin-bottom: .3rem;
 }
 
 .project-section input {
@@ -163,6 +160,7 @@ input:checked+label+.content {
 @media (min-width: 300px) and (max-width: 768px) {
     .app-container {
         height: 100%;
+        font-size: large;
     }
 
     .about-section-container {

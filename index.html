@@ -41,9 +41,9 @@
         <section role="main">
             <nav aria-label="Main Links">
                 <ul>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="mailto:kiioadvice@gmail.com">Contact</a></li>
+                    <li><a href="#blog"><small>&#8599; </small>Blog</a></li>
+                    <li><a href="#hobbies"><small>&#8599; </small>Hobbies</a></li>
+                    <li><a href="mailto:kiioadvice@gmail.com"><small>&#8599; </small>Contact</a></li>
                 </ul>
             </nav>
             <p>A space for my experiences, thoughts, projects & hobbies.</p>
@@ -53,26 +53,26 @@
         <section role="region" aria-label="About">
             <div class="about-section-container">
                 <article>
-                    <ul>
-                        <li>
+                    <dl>
+                        <dd>
                             <h3>Freelancer 2019 - Now</h3> 
-                            <small>Providing technology services for individuals and small businesses.</small>
-                        </li>
-                        <li>
+                            <p>Providing technology services for individuals and small businesses.</p>
+                        </dd>
+                        <dd>
                             <h3>Mobile Developer 2021 - 2022</h3>
-                            <small>
+                            <p>
                                 <b>Boost Education:</b>
                                 Personal notification assistant application that helped students improve their grades.
-                            </small>
-                        </li>
-                        <li>
+                            </p>
+                        </dd>
+                        <dd>
                             <h3>Web Engineer 2019 - 2021</h3>
-                            <small>
+                            <p>
                                 <b>Wunderkind:</b>
                                 Behavioral marketing solution tailored to better serve customers needs.
-                            </small>
-                        </li>
-                    </ul>
+                            </p>
+                        </dd>
+                    </dl>
                 </article>
 
                 <article>
@@ -118,7 +118,7 @@
                                 <a href="https://rapefreeworld.com/" target="_blank" rel="noopener noreferrer">&#8599; live site</a>
                             </div>
                         </dd>
-                       <!-- <li> -->
+                       <!-- <dd> -->
                         <!-- <input type="checkbox" id="title3" />
                         <label for="title3">Foleni</label>
 
@@ -128,7 +128,7 @@
                               code</a><br />
                             <a href="https://foleni.io" target="_blank" rel="noopener noreferrer">&#8599; live site</a>
                         </div> -->                           
-                       <!-- </li> -->
+                       <!-- </dd> -->
                         <dd>
                             <input type="checkbox" id="title4" />
                             <label for="title4">This site</label>
@@ -138,7 +138,7 @@
                                 <a href="https://gitlab.com/pwathome/cv3" target="_blank" rel="noopener noreferrer"><small>&#8599; </small>code</a>
                             </div>
                         </dd>
-                        <li>
+                        <dd>
                             <input type="checkbox" id="title5" />
                             <label for="title5">Parts Recognition App</label>
 
@@ -188,11 +188,6 @@
             const darkToggle = document.querySelector('.dark-toggle');
 
             darkToggle.addEventListener('click', function(event) {
-                event.stopPropagation();
-                document.body.classList.toggle('dark-mode');
-            });
-
-            darkToggle.addEventListener('touchstart', function(event) {
                 event.stopPropagation();
                 document.body.classList.toggle('dark-mode');
             });
