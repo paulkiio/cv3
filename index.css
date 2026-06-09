@@ -17,6 +17,10 @@
     --color-link-hover: #535bf2;
 }
 
+h1 {
+    margin: 0;
+}
+
 h2 {
     margin: 0;
 }
@@ -76,6 +80,10 @@ header {
     justify-content: space-between;
 }
 
+section p {
+    margin: 0;
+}
+
 article {
     flex: 1;
 }
@@ -97,7 +105,7 @@ footer ul {
     padding-top: 1rem;
 }
 
-/*Class and IDs*/
+/*Classes and IDs*/
 
 .dark {
     background-color: #333;
